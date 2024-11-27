@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "DbPdxApi.Controllers.ConexionController",
+    "Method": "Conectar",
+    "RelativePath": "DbPdxApi/Conexion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DbPdxApi.Controllers.RolController",
+    "Method": "ObtenerRoles",
+    "RelativePath": "DbPdxApi/Rol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DbPdxApi.Models.RolModel, DbPdxApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbPdxApi.Controllers.UsuarioController",
+    "Method": "ObtenerRoles",
+    "RelativePath": "DbPdxApi/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DbPdxApi.Models.UsuarioModel, DbPdxApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbPdxApi.Controllers.UsuarioPocketController",
+    "Method": "ObtenerRoles",
+    "RelativePath": "DbPdxApi/UsuarioPocket",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DbPdxApi.Models.UsuarioPocketModel, DbPdxApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DbPdxApi.Controllers.UsuarioRolController",
+    "Method": "ObtenerRoles",
+    "RelativePath": "DbPdxApi/UsuarioRol",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DbPdxApi.Models.UsuarioRolModel, DbPdxApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

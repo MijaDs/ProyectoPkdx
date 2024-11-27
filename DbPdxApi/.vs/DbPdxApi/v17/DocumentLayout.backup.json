@@ -1,0 +1,317 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProyectosVS\\DbPdxApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\data\\dbconexioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\data\\dbconexioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\controllers\\usuariopocketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\controllers\\usuariopocketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\data\\pokedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\data\\pokedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\controllers\\conexioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\pokemonmodel\\pokemonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\pokemonmodel\\pokemonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\pokemonmodel\\sprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\pokemonmodel\\sprites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\pokemonmodel\\stat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\pokemonmodel\\stat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\pokemonmodel\\stat2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\pokemonmodel\\stat2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\pokemonmodel\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\pokemonmodel\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\pokemonmodel\\type2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\pokemonmodel\\type2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\usuariorolmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\usuariorolmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\rolmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\rolmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\usuariopocketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\usuariopocketmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|d:\\proyectosvs\\dbpdxapi\\dbpdxapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1387DF57-64F1-40D0-932B-95EB5B127A85}|DbPdxApi\\DbPdxApi.csproj|solutionrelative:dbpdxapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 198,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PokeData.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Data\\PokeData.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Data\\PokeData.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Data\\PokeData.cs",
+              "RelativeToolTip": "DbPdxApi\\Data\\PokeData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:19:04.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioPocketController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\UsuarioPocketController.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Controllers\\UsuarioPocketController.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\UsuarioPocketController.cs",
+              "RelativeToolTip": "DbPdxApi\\Controllers\\UsuarioPocketController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:52:12.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioRolController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\UsuarioRolController.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Controllers\\UsuarioRolController.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\UsuarioRolController.cs",
+              "RelativeToolTip": "DbPdxApi\\Controllers\\UsuarioRolController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:07:45.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "DbPdxApi\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:27:52.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\Usuario.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\Usuario.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:24:27.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Program.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Program.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Program.cs",
+              "RelativeToolTip": "DbPdxApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:57:22.618Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 202,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbConexionContext.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Data\\DbConexionContext.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Data\\DbConexionContext.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Data\\DbConexionContext.cs",
+              "RelativeToolTip": "DbPdxApi\\Data\\DbConexionContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T06:58:46.243Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConexionController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\ConexionController.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Controllers\\ConexionController.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\ConexionController.cs",
+              "RelativeToolTip": "DbPdxApi\\Controllers\\ConexionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:18:58.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PokemonModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\PokemonModel.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\PokemonModel\\PokemonModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\PokemonModel.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\PokemonModel\\PokemonModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:09:32.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sprites.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Sprites.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\PokemonModel\\Sprites.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Sprites.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\PokemonModel\\Sprites.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:13:01.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Stat.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Stat.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\PokemonModel\\Stat.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Stat.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\PokemonModel\\Stat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:13:58.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Stat2.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Stat2.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\PokemonModel\\Stat2.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Stat2.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\PokemonModel\\Stat2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:13:59.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Type.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Type.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\PokemonModel\\Type.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Type.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\PokemonModel\\Type.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:14:01.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Type2.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Type2.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\PokemonModel\\Type2.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\PokemonModel\\Type2.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\PokemonModel\\Type2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:14:00.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Controllers\\RolController.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Controllers\\RolController.cs",
+              "RelativeToolTip": "DbPdxApi\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:29:18.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioRolModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\UsuarioRolModel.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\UsuarioRolModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\UsuarioRolModel.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\UsuarioRolModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:13:14.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioPocketModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\UsuarioPocketModel.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\UsuarioPocketModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\UsuarioPocketModel.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\UsuarioPocketModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:45:35.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RolModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\RolModel.cs",
+              "RelativeDocumentMoniker": "DbPdxApi\\Models\\RolModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\DbPdxApi\\DbPdxApi\\Models\\RolModel.cs",
+              "RelativeToolTip": "DbPdxApi\\Models\\RolModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T08:15:27.894Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
