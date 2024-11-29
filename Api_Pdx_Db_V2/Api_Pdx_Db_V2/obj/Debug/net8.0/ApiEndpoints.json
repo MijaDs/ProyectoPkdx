@@ -10,6 +10,52 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.EstadoController",
+    "Method": "GetEstado",
+    "RelativePath": "Api_Pdx_DbV2/Estado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.EstadoModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.EstadoController",
+    "Method": "GetEstadoPorId",
+    "RelativePath": "Api_Pdx_DbV2/Estado/estado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Api_Pdx_Db_V2.Models.EstadoModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.RolController",
     "Method": "GetRoles",
     "RelativePath": "Api_Pdx_DbV2/Rol",
@@ -78,7 +124,7 @@
   {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioController",
     "Method": "EliminarUsuario",
-    "RelativePath": "Api_Pdx_DbV2/Usuario/Eliminar por id/ {id}",
+    "RelativePath": "Api_Pdx_DbV2/Usuario/Eliminar/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -110,7 +156,7 @@
   {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioController",
     "Method": "GetUsuarioPorId",
-    "RelativePath": "Api_Pdx_DbV2/Usuario/Usuario por id/{id}",
+    "RelativePath": "Api_Pdx_DbV2/Usuario/Usuario/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

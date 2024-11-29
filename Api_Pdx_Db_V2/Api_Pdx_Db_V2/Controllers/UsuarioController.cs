@@ -57,7 +57,7 @@ namespace Api_Pdx_Db_V2.Controllers
         } 
 
         // Obtener un usuario por ID
-        [HttpGet("Usuario por id/{id}")]
+        [HttpGet("Usuario/{id}")]
         public ActionResult<UsuarioModel> GetUsuarioPorId(int id)
         {
             var usuario = _conexionContext.usuario.Find(id);
@@ -70,7 +70,7 @@ namespace Api_Pdx_Db_V2.Controllers
         }
 
         // Eliminar un usuario
-        [HttpDelete("Eliminar por id/ {id}")]
+        [HttpDelete("Eliminar/{id}")]
         public ActionResult EliminarUsuario(int id)
         {
             var usuario = _conexionContext.usuario.FirstOrDefault(u => u.Id == id);

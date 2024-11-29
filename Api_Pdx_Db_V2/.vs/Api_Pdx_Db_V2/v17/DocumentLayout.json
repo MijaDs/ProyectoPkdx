@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\estadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\models\\estadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\models\\estadomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\data\\dbconexioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\data\\dbconexioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +38,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
               "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAIwG0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T13:26:40.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RolController.cs",
               "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\RolController.cs",
@@ -58,8 +66,34 @@
         },
         {
           "DockedWidth": 314,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstadoController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\EstadoController.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\EstadoController.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\EstadoController.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\EstadoController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:05:00.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstadoModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\EstadoModel.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Models\\EstadoModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\EstadoModel.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Models\\EstadoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:03:08.549Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -68,20 +102,20 @@
               "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
               "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
               "RelativeToolTip": "Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T13:12:50.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "UsuarioRolController.cs",
               "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioRolController.cs",
               "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\UsuarioRolController.cs",
               "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioRolController.cs",
               "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioRolController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T14:02:10.912Z",
               "EditorCaption": ""
