@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\DbPdxApi",
-    "\\DbPdxApi\\DbPdxApi",
-    "\\DbPdxApi\\DbPdxApi\\Controllers"
+    "\\Api_Pdx_Db_V2",
+    "\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2",
+    "\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models"
   ],
-  "SelectedNode": "\\DbPdxApi\\DbPdxApi\\Controllers\\UsuarioRolController.cs",
+  "SelectedNode": "\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioModel.cs",
   "PreviewInSolutionExplorer": false
 }

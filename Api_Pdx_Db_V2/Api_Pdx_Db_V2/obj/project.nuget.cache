@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pba1XRnl8N8=",
+  "dgSpecHash": "M5v6aqWUdl0=",
   "success": true,
-  "projectFilePath": "D:\\ProyectosVS\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj",
+  "projectFilePath": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mija2\\.nuget\\packages\\bcrypt.net\\0.1.0\\bcrypt.net.0.1.0.nupkg.sha512",
     "C:\\Users\\mija2\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",

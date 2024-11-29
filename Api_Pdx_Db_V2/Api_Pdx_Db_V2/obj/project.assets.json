@@ -2787,11 +2787,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProyectosVS\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj",
+      "projectUniqueName": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj",
       "projectName": "Api_Pdx_Db_V2",
-      "projectPath": "D:\\ProyectosVS\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj",
+      "projectPath": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj",
       "packagesPath": "C:\\Users\\mija2\\.nuget\\packages\\",
-      "outputPath": "D:\\ProyectosVS\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\obj\\",
+      "outputPath": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mija2\\AppData\\Roaming\\NuGet\\NuGet.Config",

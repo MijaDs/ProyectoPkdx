@@ -24,7 +24,7 @@ namespace Api_Pdx_Db_V2.Controllers
         }
 
         // Crear un nuevo usuario
-        [HttpPost]
+        [HttpPost("Crear Usuario")]
         public ActionResult<UsuarioModel> CrearUsuario([FromBody] UsuarioModel nuevoUsuario)
         {
             nuevoUsuario.Pass = BCrypt.Net.BCrypt.HashPassword(nuevoUsuario.Pass);
@@ -57,7 +57,7 @@ namespace Api_Pdx_Db_V2.Controllers
         } 
 
         // Obtener un usuario por ID
-        [HttpGet("{id}")]
+        [HttpGet("Usuario por id/{id}")]
         public ActionResult<UsuarioModel> GetUsuarioPorId(int id)
         {
             var usuario = _conexionContext.usuario.Find(id);
@@ -70,7 +70,7 @@ namespace Api_Pdx_Db_V2.Controllers
         }
 
         // Eliminar un usuario
-        [HttpDelete("{id}")]
+        [HttpDelete("Eliminar por id/ {id}")]
         public ActionResult EliminarUsuario(int id)
         {
             var usuario = _conexionContext.usuario.FirstOrDefault(u => u.Id == id);
