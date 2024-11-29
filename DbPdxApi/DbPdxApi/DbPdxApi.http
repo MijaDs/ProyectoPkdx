@@ -1,6 +1,0 @@
-@DbPdxApi_HostAddress = http://localhost:5167
-
-GET {{DbPdxApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

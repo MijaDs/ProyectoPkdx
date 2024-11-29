@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\DbPdxApi.props" />
-</Project>

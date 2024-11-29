@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DbPdxApi",
+    "\\DbPdxApi\\DbPdxApi",
+    "\\DbPdxApi\\DbPdxApi\\Controllers"
   ],
+  "SelectedNode": "\\DbPdxApi\\DbPdxApi\\Controllers\\UsuarioRolController.cs",
   "PreviewInSolutionExplorer": false
 }
