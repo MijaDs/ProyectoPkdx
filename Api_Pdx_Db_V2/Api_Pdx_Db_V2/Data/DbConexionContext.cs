@@ -11,6 +11,7 @@ namespace Api_Pdx_Db_V2.Data
         public DbSet<UsuarioModel> usuario { get; set; }
         public DbSet<UsuarioRolModel> usuario_rol { get; set; }
         public DbSet<EstadoModel> estado { get; set; }
+        public DbSet<UsuarioPkmModel> usuario_pkm { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<RolModel>().ToTable("rol");
@@ -20,6 +21,8 @@ namespace Api_Pdx_Db_V2.Data
             modelBuilder.Entity<UsuarioRolModel>().ToTable("usuario_rol");
 
             modelBuilder.Entity<EstadoModel>().ToTable("estado");
+
+            modelBuilder.Entity<UsuarioPkmModel>().ToTable("usuario_pkm");
         }
     }
 }

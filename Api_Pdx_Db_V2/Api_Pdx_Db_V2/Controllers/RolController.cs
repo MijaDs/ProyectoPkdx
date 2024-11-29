@@ -1,6 +1,7 @@
 ﻿using Api_Pdx_Db_V2.Data;
 using Api_Pdx_Db_V2.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Api_Pdx_Db_V2.Controllers
 {
@@ -13,6 +14,7 @@ namespace Api_Pdx_Db_V2.Controllers
         {
             _conexionContext = conexionContext;
         }
+
         [HttpGet]
         public ActionResult<IEnumerable<RolModel>> GetRoles() 
         {

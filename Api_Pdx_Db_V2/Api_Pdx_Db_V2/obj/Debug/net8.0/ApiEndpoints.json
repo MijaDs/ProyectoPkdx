@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
+    "Method": "ObtenerPkmsUsuario",
+    "RelativePath": "{_idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioPkmModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.ConexionController",
     "Method": "Conectar",
     "RelativePath": "Api_Pdx_DbV2/Conexion",
@@ -214,6 +240,48 @@
       },
       {
         "Name": "nuevoIdRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
+    "Method": "CrearUsuarioPkm",
+    "RelativePath": "CrearUsuarioPkm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioPkm",
+        "Type": "Api_Pdx_Db_V2.Models.UsuarioPkmModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
+    "Method": "EliminarUsuarioPkm",
+    "RelativePath": "EliminarUsuarioPkm/{idUsuario}/{idPkm}/{idUsuarioPkm}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPkm",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuarioPkm",
         "Type": "System.Int32",
         "IsRequired": true
       }
