@@ -26,6 +26,32 @@
     ]
   },
   {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
+    "Method": "ObtenerPktUsuario",
+    "RelativePath": "{_idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioPktModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
     "Method": "aagreagrUsuarioPkm",
     "RelativePath": "AgregarUsuarioPkm",
@@ -263,6 +289,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
+    "Method": "asignarPocketUsuario",
+    "RelativePath": "Asignar-pocket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
     "Method": "EliminarUsuarioPkm",
     "RelativePath": "EliminarUsuarioPkm/{idUsuario}/{idPkm}/{idUsuarioPkm}",
@@ -284,6 +326,32 @@
         "Name": "idUsuarioPkm",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
+    "Method": "ReemplazarPokt",
+    "RelativePath": "remplazar-pokemon",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pkmIdRemplazar",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idPkmNuevo",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
