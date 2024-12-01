@@ -4,8 +4,8 @@
     {
         public int Id { get; set; }
         public int IdUsuario { get; set; }
-        public int pkmId_1 { get; set; }
-        public int pkmId_2{ get; set; }
-        public int pkmId_3 { get; set; }
+        public int pkm_Id1 { get; set; }
+        public int pkm_Id2{ get; set; }
+        public int pkm_Id3 { get; set; }
     }
 }

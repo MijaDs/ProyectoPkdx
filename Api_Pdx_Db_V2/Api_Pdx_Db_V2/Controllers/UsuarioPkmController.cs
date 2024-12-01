@@ -20,7 +20,7 @@ namespace Api_Pdx_Db_V2.Controllers
         {
             return Ok(_conexionContext.usuario_pkm.ToList());
         }
-
+        //funcioal
         [HttpGet("{_idUsuario}")]
         public ActionResult<IEnumerable<UsuarioPkmModel>> ObtenerPkmsUsuario(int _idUsuario)
         {

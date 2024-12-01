@@ -1,6 +1,7 @@
 ﻿using Api_Pdx_Db_V2.Data;
 using Api_Pdx_Db_V2.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Api_Pdx_Db_V2.Controllers
 {
@@ -23,6 +24,7 @@ namespace Api_Pdx_Db_V2.Controllers
         [HttpGet("{_idUsuario}")]
         public ActionResult<IEnumerable<UsuarioPktModel>> ObtenerPktUsuario(int _idUsuario)
         {
+            
             var pktUsuario = _conexionContext.usuario_pocket.Where(up => up.IdUsuario == _idUsuario).ToList();
             if (pktUsuario== null|| !pktUsuario.Any())
             {
@@ -30,10 +32,14 @@ namespace Api_Pdx_Db_V2.Controllers
             }
             return Ok(pktUsuario);
         }
+
         [HttpPost("Asignar-pocket")]
-        public ActionResult asignarPocketUsuario(int _idUsuario) 
+        public async Task<ActionResult> asignarPocketUsuario(int _idUsuario) 
         {
-            var pkmUsuario = _conexionContext.usuario_pkm.Where(up => up.IdUsuario==_idUsuario&& up.estado==1).ToList();
+            var pkmUsuario = await _conexionContext.usuario_pkm
+            .Where(up => up.IdUsuario == _idUsuario && up.estado == 1)
+            .ToListAsync();
+            
             if (pkmUsuario.Count < 3) {
                 return BadRequest("Se necesitan al menos 3 pokemnon para asignar");
             }
@@ -49,14 +55,27 @@ namespace Api_Pdx_Db_V2.Controllers
             var nuevoPocket = new UsuarioPktModel
             {
                 IdUsuario = _idUsuario,
-                pkmId_1 = pkmSeleccionados[0].Id,
-                pkmId_2 = pkmSeleccionados[1].Id,
-                pkmId_3 = pkmSeleccionados[2].Id
+                pkm_Id1 = pkmSeleccionados[0].Id,
+                pkm_Id2 = pkmSeleccionados[1].Id,
+                pkm_Id3 = pkmSeleccionados[2].Id
 
             };
-            _conexionContext.usuario_pocket.Add(nuevoPocket);
+            try
+            {
+                // Agregar el nuevo pocket a la base de datos
+                _conexionContext.usuario_pocket.Add(nuevoPocket);
+                // Guardar los cambios en la base de datos
+                await _conexionContext.SaveChangesAsync();
+                return Ok("Pocket agregado.");
+            }
+            catch (Exception ex)
+            {
+                // Manejo de errores
+                 return BadRequest($"Error al agregar el pocket: {ex.Message}");
+            }
+            //_conexionContext.usuario_pocket.Add(nuevoPocket);
 
-            return Ok("Poket agregado");
+            //return Ok("Poket agregado");
         }
 
         [HttpPut("remplazar-pokemon")]
@@ -69,17 +88,17 @@ namespace Api_Pdx_Db_V2.Controllers
             }
             // Verificar si el Pokémon a reemplazar está en el pocket
 
-            if (pocket.pkmId_1 == pkmIdRemplazar)
+            if (pocket.pkm_Id1 == pkmIdRemplazar)
             {
-                pocket.pkmId_1 = idPkmNuevo;
+                pocket.pkm_Id1 = idPkmNuevo;
             }
-            else if (pocket.pkmId_2 == pkmIdRemplazar)
+            else if (pocket.pkm_Id2 == pkmIdRemplazar)
             {
-                pocket.pkmId_2 = idPkmNuevo;
+                pocket.pkm_Id2 = idPkmNuevo;
             }
-            else if (pocket.pkmId_3 == pkmIdRemplazar)
+            else if (pocket.pkm_Id3 == pkmIdRemplazar)
             {
-                pocket.pkmId_3 = idPkmNuevo;
+                pocket.pkm_Id3 = idPkmNuevo;
             }
             else
             {
