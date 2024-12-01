@@ -26,6 +26,22 @@
     ]
   },
   {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
+    "Method": "aagreagrUsuarioPkm",
+    "RelativePath": "AgregarUsuarioPkm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioPkm",
+        "Type": "Api_Pdx_Db_V2.Models.UsuarioPkmModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.ConexionController",
     "Method": "Conectar",
     "RelativePath": "Api_Pdx_DbV2/Conexion",
@@ -241,22 +257,6 @@
       {
         "Name": "nuevoIdRol",
         "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
-    "Method": "CrearUsuarioPkm",
-    "RelativePath": "CrearUsuarioPkm",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuarioPkm",
-        "Type": "Api_Pdx_Db_V2.Models.UsuarioPkmModel",
         "IsRequired": true
       }
     ],

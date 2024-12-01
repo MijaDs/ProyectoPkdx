@@ -106,6 +106,7 @@ namespace Api_Pdx_Db_V2.Controllers
             }
 
             // Aquí podrías generar un JWT o retornar un mensaje de éxito
+
             return Ok(new { mensaje = "Login exitoso" });
         }
 

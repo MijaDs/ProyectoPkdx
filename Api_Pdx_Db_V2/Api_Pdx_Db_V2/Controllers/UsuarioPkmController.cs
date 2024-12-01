@@ -14,7 +14,7 @@ namespace Api_Pdx_Db_V2.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<UsuarioPkmModel>> GetRoles()
+        public ActionResult<IEnumerable<UsuarioPkmModel>> GetUsuarios_pkm()
         {
             return Ok(_conexionContext.usuario_pkm.ToList());
         }
@@ -23,7 +23,7 @@ namespace Api_Pdx_Db_V2.Controllers
         public ActionResult<IEnumerable<UsuarioPkmModel>> ObtenerPkmsUsuario(int _idUsuario)
         {
             var datos = _conexionContext.usuario_pkm.Where(up => up.IdUsuario == _idUsuario)
-        .ToList();
+            .ToList();
             if (datos == null || !datos.Any())
             {
                 return NotFound("Datos no encontrados");
@@ -31,8 +31,8 @@ namespace Api_Pdx_Db_V2.Controllers
             return Ok(datos);
         }
 
-        [HttpPost("CrearUsuarioPkm")]
-        public async Task<IActionResult> CrearUsuarioPkm([FromBody] UsuarioPkmModel usuarioPkm)
+        [HttpPost("AgregarUsuarioPkm")]
+        public async Task<IActionResult>aagreagrUsuarioPkm([FromBody] UsuarioPkmModel usuarioPkm)
         {
             if (usuarioPkm == null)
             {
@@ -69,7 +69,7 @@ namespace Api_Pdx_Db_V2.Controllers
                 await _conexionContext.SaveChangesAsync();
 
                 // Devolver la respuesta con el objeto recién creado
-                return CreatedAtAction(nameof(CrearUsuarioPkm), new { id = nuevoUsuarioPkm.Id }, nuevoUsuarioPkm);
+                return Ok("Pokemon agregado correctamente");
             }
             catch (Exception ex)
             {

@@ -31,7 +31,5 @@ namespace Api_Pdx_Db_V2.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
-
-        
     }
 }
