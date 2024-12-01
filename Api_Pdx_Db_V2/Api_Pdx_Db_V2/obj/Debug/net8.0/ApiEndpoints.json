@@ -1,73 +1,5 @@
 [
   {
-    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
-    "Method": "ObtenerPkmsUsuario",
-    "RelativePath": "{_idUsuario}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "_idUsuario",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioPkmModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
-    "Method": "ObtenerPktUsuario",
-    "RelativePath": "{_idUsuario}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "_idUsuario",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioPktModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
-    "Method": "aagreagrUsuarioPkm",
-    "RelativePath": "AgregarUsuarioPkm",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "usuarioPkm",
-        "Type": "Api_Pdx_Db_V2.Models.UsuarioPkmModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.ConexionController",
     "Method": "Conectar",
     "RelativePath": "Api_Pdx_DbV2/Conexion",
@@ -248,6 +180,182 @@
     ]
   },
   {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
+    "Method": "GetUsuarios_pkm",
+    "RelativePath": "Api_Pdx_DbV2/UsuarioPkm",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioPkmModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
+    "Method": "ObtenerPkmsUsuario",
+    "RelativePath": "Api_Pdx_DbV2/UsuarioPkm/{_idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioPkmModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
+    "Method": "aagreagrUsuarioPkm",
+    "RelativePath": "Api_Pdx_DbV2/UsuarioPkm/AgregarUsuarioPkm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioPkm",
+        "Type": "Api_Pdx_Db_V2.Models.UsuarioPkmModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
+    "Method": "EliminarUsuarioPkm",
+    "RelativePath": "Api_Pdx_DbV2/UsuarioPkm/EliminarUsuarioPkm/{idUsuario}/{idPkm}/{idUsuarioPkm}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idPkm",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idUsuarioPkm",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
+    "Method": "GetUsuarios_pkt",
+    "RelativePath": "Api_Pdx_DbV2/UsuarioPkt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioPktModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
+    "Method": "ObtenerPktUsuario",
+    "RelativePath": "Api_Pdx_DbV2/UsuarioPkt/{_idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioPktModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
+    "Method": "asignarPocketUsuario",
+    "RelativePath": "Api_Pdx_DbV2/UsuarioPkt/Asignar-pocket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
+    "Method": "ReemplazarPokt",
+    "RelativePath": "Api_Pdx_DbV2/UsuarioPkt/remplazar-pokemon",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pkmIdRemplazar",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "idPkmNuevo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioRolController",
     "Method": "GetUsuariosRoles",
     "RelativePath": "Api_Pdx_DbV2/UsuarioRol",
@@ -284,74 +392,6 @@
         "Name": "nuevoIdRol",
         "Type": "System.Int32",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
-    "Method": "asignarPocketUsuario",
-    "RelativePath": "Asignar-pocket",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "_idUsuario",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
-    "Method": "EliminarUsuarioPkm",
-    "RelativePath": "EliminarUsuarioPkm/{idUsuario}/{idPkm}/{idUsuarioPkm}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idUsuario",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "idPkm",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "idUsuarioPkm",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPktController",
-    "Method": "ReemplazarPokt",
-    "RelativePath": "remplazar-pokemon",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idUsuario",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "pkmIdRemplazar",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "idPkmNuevo",
-        "Type": "System.Int32",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -4,8 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Api_Pdx_Db_V2.Controllers
 {
+    [ApiController]
+    [Route("Api_Pdx_DbV2/[controller]")]
     public class UsuarioPktController : ControllerBase
     {
+
         private readonly DbConexionContext _conexionContext;
         public UsuarioPktController(DbConexionContext conexionContext)
         {
@@ -52,7 +55,7 @@ namespace Api_Pdx_Db_V2.Controllers
 
             };
             _conexionContext.usuario_pocket.Add(nuevoPocket);
-            _conexionContext.SaveChanges();
+
             return Ok("Poket agregado");
         }
 

@@ -44,7 +44,7 @@ namespace Api_Pdx_Db_V2.Controllers
 
                 // Agregar la relación a la tabla Usuario_Rol
                 _conexionContext.usuario_rol.Add(usuarioRol);
-                _conexionContext.SaveChanges();
+               
 
                 return Ok("Usuario y rol asignado exitosamente.");
             }

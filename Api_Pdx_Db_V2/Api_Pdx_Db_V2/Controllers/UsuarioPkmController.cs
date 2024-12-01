@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Api_Pdx_Db_V2.Controllers
 {
+    [ApiController]
+    [Route("Api_Pdx_DbV2/[controller]")]
     public class UsuarioPkmController : ControllerBase
     {
         private readonly DbConexionContext _conexionContext;
