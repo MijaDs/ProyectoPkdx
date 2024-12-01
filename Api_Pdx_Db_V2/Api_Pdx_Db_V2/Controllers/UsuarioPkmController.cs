@@ -34,7 +34,7 @@ namespace Api_Pdx_Db_V2.Controllers
         }
 
         [HttpPost("AgregarUsuarioPkm")]
-        public async Task<IActionResult>aagreagrUsuarioPkm([FromBody] UsuarioPkmModel usuarioPkm)
+        public async Task<IActionResult>agreagrUsuarioPkm([FromBody] UsuarioPkmModel usuarioPkm)
         {
             if (usuarioPkm == null)
             {

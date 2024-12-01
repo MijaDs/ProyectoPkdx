@@ -16,10 +16,13 @@ namespace Api_Pdx_Db_V2.Controllers
             _conexionContext = conexionContext;
         }
         [HttpGet]
+        //Trae todos los datos de tabla para comparar
         public ActionResult<IEnumerable<UsuarioPktModel>> GetUsuarios_pkt()
         {
             return Ok(_conexionContext.usuario_pocket.ToList());
         }
+
+        //busca en el usuario seleccionado 
 
         [HttpGet("{_idUsuario}")]
         public ActionResult<IEnumerable<UsuarioPktModel>> ObtenerPktUsuario(int _idUsuario)
@@ -33,9 +36,12 @@ namespace Api_Pdx_Db_V2.Controllers
             return Ok(pktUsuario);
         }
 
+        //Asigna los primeros 3 pokemon regitrados de la tabla por usuario
+        //por usuario para 
         [HttpPost("Asignar-pocket")]
         public async Task<ActionResult> asignarPocketUsuario(int _idUsuario) 
         {
+            //busca lo datos de la lista pokemo user 
             var pkmUsuario = await _conexionContext.usuario_pkm
             .Where(up => up.IdUsuario == _idUsuario && up.estado == 1)
             .ToListAsync();
@@ -44,6 +50,7 @@ namespace Api_Pdx_Db_V2.Controllers
                 return BadRequest("Se necesitan al menos 3 pokemnon para asignar");
             }
 
+            //agrega los primeros 3 al poket
             var pkmSeleccionados = pkmUsuario.Take(3).ToList();
 
             foreach (var pkm in pkmSeleccionados)
@@ -77,6 +84,7 @@ namespace Api_Pdx_Db_V2.Controllers
 
             //return Ok("Poket agregado");
         }
+        //busca por id
 
         [HttpPut("remplazar-pokemon")]
         public ActionResult ReemplazarPokt(int idUsuario, int pkmIdRemplazar, int idPkmNuevo)

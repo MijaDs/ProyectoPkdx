@@ -27,10 +27,13 @@ namespace Api_Pdx_Db_V2.Controllers
         [HttpPost("Crear Usuario")]
         public ActionResult<UsuarioModel> CrearUsuario([FromBody] UsuarioModel nuevoUsuario)
         {
+            //Agrega el pass encriptado
             nuevoUsuario.Pass = BCrypt.Net.BCrypt.HashPassword(nuevoUsuario.Pass);
             _conexionContext.usuario.Add(nuevoUsuario);
             _conexionContext.SaveChanges();
+            
 
+            //Asigna rol sario 
             var rol = _conexionContext.rol.FirstOrDefault(r => r.Descripcion == "User");
 
             if (rol != null)
@@ -104,10 +107,16 @@ namespace Api_Pdx_Db_V2.Controllers
             {
                 return Unauthorized("Usuario o contraseña incorrectos.");
             }
+            var datosUsuario = new
+            {
+                usuario.Id,
+                usuario.UserName,
+                usuario.Nombre
+            };
 
-            // Aquí podrías generar un JWT o retornar un mensaje de éxito
+            //retorno usuario 
 
-            return Ok(new { mensaje = "Login exitoso" });
+            return Ok(new { mensaje = "Login exitoso", usuario = datosUsuario });
         }
 
     }

@@ -45,6 +45,8 @@ namespace Api_Pdx_Db_V2.Controllers
             _conexionContext.SaveChanges();
 
             return Ok("Rol del usuario actualizado exitosamente.");
+
+
         }
     }
 }
