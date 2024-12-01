@@ -34,7 +34,7 @@ namespace Api_Pdx_Db_V2.Controllers
         }
 
         [HttpPost("AgregarUsuarioPkm")]
-        public async Task<IActionResult>agreagrUsuarioPkm([FromBody] UsuarioPkmModel usuarioPkm)
+        public async Task<IActionResult>agreagrUsuarioPkm([FromBody] UsuarioPkmModel usuarioPkm, [FromServices] PokeCliet pokeCliet)
         {
             if (usuarioPkm == null)
             {
@@ -54,6 +54,12 @@ namespace Api_Pdx_Db_V2.Controllers
 
             try
             {
+                // Obtener los datos del Pokémon desde la API
+                var pokemonData = await pokeCliet.GetPokemon(usuarioPkm.pkm_id.ToString());
+                if(pokemonData == null)
+                {
+                    return BadRequest("Datos no econtrados");
+                }
                 // Asignar siempre el estado 1
                 usuarioPkm.estado = 1;
 
@@ -61,8 +67,8 @@ namespace Api_Pdx_Db_V2.Controllers
                 var nuevoUsuarioPkm = new UsuarioPkmModel
                 {
                     IdUsuario = usuarioPkm.IdUsuario,
-                    pkm_id = usuarioPkm.pkm_id,
-                    nombre = usuarioPkm.nombre,
+                    pkm_id = pokemonData.id,
+                    nombre = pokemonData.name,
                     estado = usuarioPkm.estado  // Este valor será siempre 1
                 };
 

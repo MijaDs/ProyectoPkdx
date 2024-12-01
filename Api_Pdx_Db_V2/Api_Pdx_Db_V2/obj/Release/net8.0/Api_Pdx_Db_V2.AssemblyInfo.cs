@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api_Pdx_Db_V2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f8a2b8f5f23b1fa3b840a375929c9200d010bcb")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+714a3698b7f029074e2a87ef1caa669b4728cc2a")]
->>>>>>> parent of eb9940e (Mija)
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0da48283cef32399f66b0b767f6d73bc2473362")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api_Pdx_Db_V2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api_Pdx_Db_V2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

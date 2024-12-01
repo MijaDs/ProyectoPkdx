@@ -4,8 +4,9 @@ using Api_Pdx_Db_V2.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddHttpClient<PokeCliet>();
 var connectionString = builder.Configuration.GetConnectionString("AccesoConexion");
+
 
 builder.Services.AddDbContext<DbConexionContext>(
     options => options.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 21))

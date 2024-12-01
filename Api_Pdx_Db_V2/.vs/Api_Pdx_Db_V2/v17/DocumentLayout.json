@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\usuariopktcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\usuariopktcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\data\\pokecliet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\data\\pokecliet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\data\\dbconexioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\data\\dbconexioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\models\\usuariopkmmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\models\\usuariopkmmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\usuariopkmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\usuariopkmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\models\\usuariopktmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\models\\usuariopktmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\api_pdx_db_v2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\api_pdx_db_v2.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,63 +29,36 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 531,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
-              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHYAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T23:54:19.147Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 552,
+          "DockedWidth": 568,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioPktController.cs",
-              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPktController.cs",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\UsuarioPktController.cs",
-              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPktController.cs",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioPktController.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAcwCkAAABLAAAAAAAAAA==",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T03:41:25.969Z",
+              "WhenOpened": "2024-11-29T23:54:19.147Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UsuarioPkmController.cs",
-              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABfAAAAAAAAAA==",
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T23:55:14.955Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-12-01T14:44:16.436Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 368,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -110,73 +67,36 @@
               "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
               "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
               "RelativeToolTip": "Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T03:28:52.825Z",
+              "WhenOpened": "2024-12-01T14:44:06.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PokeCliet.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Data\\PokeCliet.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Data\\PokeCliet.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Data\\PokeCliet.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Data\\PokeCliet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:52:35.739Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UsuarioPkmModel.cs",
-              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Program.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Program.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Program.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T01:00:37.358Z",
+              "WhenOpened": "2024-12-01T13:53:10.48Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioModel.cs",
-              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioModel.cs",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Models\\UsuarioModel.cs",
-              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioModel.cs",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Models\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T01:02:52.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UsuarioPktModel.cs",
-              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioPktModel.cs",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Models\\UsuarioPktModel.cs",
-              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioPktModel.cs",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Models\\UsuarioPktModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T03:38:54.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\appsettings.json",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\appsettings.json",
-              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\appsettings.json",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-01T05:43:50.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Api_Pdx_Db_V2.http",
-              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2.http",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Api_Pdx_Db_V2.http",
-              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2.http",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Api_Pdx_Db_V2.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-01T05:43:36.784Z"
             }
           ]
         }

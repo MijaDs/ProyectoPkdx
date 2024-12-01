@@ -227,7 +227,7 @@
   },
   {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
-    "Method": "aagreagrUsuarioPkm",
+    "Method": "agreagrUsuarioPkm",
     "RelativePath": "Api_Pdx_DbV2/UsuarioPkm/AgregarUsuarioPkm",
     "HttpMethod": "POST",
     "IsController": true,
