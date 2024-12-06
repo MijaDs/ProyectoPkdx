@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "SqcufyHXteq6J1/POHq3Qrc9NgtI1UutFJaf0guFxF0=",
+  "Hash": "yBm/nJgmarED5O1DH9c7lO0Y7lqdzplTVcAwJOrulr4=",
   "Source": "Api_Pdx_Db_V2",
   "BasePath": "_content/Api_Pdx_Db_V2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

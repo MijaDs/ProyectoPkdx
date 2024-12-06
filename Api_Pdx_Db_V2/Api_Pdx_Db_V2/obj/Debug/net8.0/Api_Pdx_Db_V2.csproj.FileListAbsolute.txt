@@ -121,3 +121,7 @@ D:\ProyectosVS\ProyectoPkdx\Api_Pdx_Db_V2\Api_Pdx_Db_V2\obj\Debug\net8.0\refint\
 D:\ProyectosVS\ProyectoPkdx\Api_Pdx_Db_V2\Api_Pdx_Db_V2\obj\Debug\net8.0\Api_Pdx_Db_V2.pdb
 D:\ProyectosVS\ProyectoPkdx\Api_Pdx_Db_V2\Api_Pdx_Db_V2\obj\Debug\net8.0\Api_Pdx_Db_V2.genruntimeconfig.cache
 D:\ProyectosVS\ProyectoPkdx\Api_Pdx_Db_V2\Api_Pdx_Db_V2\obj\Debug\net8.0\ref\Api_Pdx_Db_V2.dll
+D:\ProyectosVS\ProyectoPkdx\Api_Pdx_Db_V2\Api_Pdx_Db_V2\bin\Debug\net8.0\Api_Pdx_Db_V2.staticwebassets.endpoints.json
+D:\ProyectosVS\ProyectoPkdx\Api_Pdx_Db_V2\Api_Pdx_Db_V2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ProyectosVS\ProyectoPkdx\Api_Pdx_Db_V2\Api_Pdx_Db_V2\obj\Debug\net8.0\staticwebassets\msbuild.Api_Pdx_Db_V2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\ProyectosVS\ProyectoPkdx\Api_Pdx_Db_V2\Api_Pdx_Db_V2\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
