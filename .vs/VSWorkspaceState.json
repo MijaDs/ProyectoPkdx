@@ -1,12 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Api_Pdx_Db_V2",
-    "\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2",
-    "\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers",
-    "\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Data",
-    "\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models"
+    "\\PoyectoPokedexApi\\PoyectoPokedexApi",
+    "\\PoyectoPokedexApi\\PoyectoPokedexApi\\Models",
+    "\\PoyectoPokedexApi\\PoyectoPokedexApi\\Models\\PokemonModel",
+    "\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Luchar",
+    "\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Mensajeria",
+    "\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelAdmin",
+    "\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelEntrenador",
+    "\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokedex"
   ],
-  "SelectedNode": "\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
+  "SelectedNode": "\\PoyectoPokedexApi",
   "PreviewInSolutionExplorer": false
 }

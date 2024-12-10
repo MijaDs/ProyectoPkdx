@@ -826,19 +826,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mija2\\.nuget\\packages\\": {}
+    "C:\\Users\\morab\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProyectosVS\\PoyectoPokedexApi\\PoyectoPokedexApi\\PoyectoPokedexApi.csproj",
+      "projectUniqueName": "C:\\Users\\morab\\OneDrive\\Documents\\Proyectos Progra\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\PoyectoPokedexApi.csproj",
       "projectName": "PoyectoPokedexApi",
-      "projectPath": "D:\\ProyectosVS\\PoyectoPokedexApi\\PoyectoPokedexApi\\PoyectoPokedexApi.csproj",
-      "packagesPath": "C:\\Users\\mija2\\.nuget\\packages\\",
-      "outputPath": "D:\\ProyectosVS\\PoyectoPokedexApi\\PoyectoPokedexApi\\obj\\",
+      "projectPath": "C:\\Users\\morab\\OneDrive\\Documents\\Proyectos Progra\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\PoyectoPokedexApi.csproj",
+      "packagesPath": "C:\\Users\\morab\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\morab\\OneDrive\\Documents\\Proyectos Progra\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mija2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\morab\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
