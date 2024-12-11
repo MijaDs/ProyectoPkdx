@@ -24,5 +24,18 @@ namespace PoyectoPokedexApi.Utilities
             return JsonSerializer.Deserialize<PokemonModel>(responseContent)
                   ?? throw new Exception("La respuesta no tiene un formato válido para PokemonModel.");
         }
+
+        public async Task<List<PokemonModel>> GetPokemons(List<string> ids)
+        {
+            var pokemons = new List<PokemonModel>();
+
+            foreach (var id in ids)
+            {
+                var pokemon = await GetPokemon(id); // Usamos el método que ya tienes para obtener un Pokémon
+                pokemons.Add(pokemon);
+            }
+
+            return pokemons;
+        }
     }
 }

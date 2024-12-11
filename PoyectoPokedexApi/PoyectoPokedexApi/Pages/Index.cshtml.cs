@@ -1,20 +1,35 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using PoyectoPokedexApi.Utilities;
 
 namespace PoyectoPokedexApi.Pages
 {
     public class IndexModel : PageModel
     {
+        private readonly UsuarioApiClient _usuarioApiClient;
         private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        // Propiedad para almacenar el resultado de la conexión
+        public string ConexionResultado { get; set; }
+
+        public IndexModel(ILogger<IndexModel> logger, UsuarioApiClient usuarioApiClient)
         {
             _logger = logger;
+            _usuarioApiClient = usuarioApiClient;
         }
 
-        public void OnGet()
+        // Método manejador para validar la conexión
+        public async Task<IActionResult> OnGetConexion()
         {
-
+            try
+            {
+                await UsuarioApiClient.EjecutarTask(); // Llama al método que realiza la solicitud
+                return new JsonResult("Conexion Exitosa");
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult($"Error: {ex.Message}");
+            }
         }
     }
 }
