@@ -1,0 +1,53 @@
+﻿@page
+@model PoyectoPokedexApi.Pages.Pokemon.MensajeriaModel
+
+<div class="container mt-5">
+    <h1 class="text-center">Mensajería</h1>
+
+    <!-- Tabla de Mensajes Enviados -->
+    <h2 class="mt-4">Enviados</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Destinatario</th>
+                <th>Mensaje</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+           @foreach (var mensaje in Model.MensajesEnviados)
+            {
+                <tr>
+                    <td>@mensaje.Destinatario</td>
+                    <td>@mensaje.Mensaje</td>
+                    <td>@mensaje.Estado</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Tabla de Mensajes Recibidos -->
+    <h2 class="mt-4">Recibidos</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Destinatario</th>
+                <th>Mensaje</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mensaje in Model.MensajesRecibidos)
+            {
+                <tr>
+                    <td>@mensaje.Destinatario</td>
+                    <td>@mensaje.Mensaje</td>
+                    <td>
+                        <button class="btn btn-primary btn-sm">Update</button>
+                        <button class="btn btn-danger btn-sm">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

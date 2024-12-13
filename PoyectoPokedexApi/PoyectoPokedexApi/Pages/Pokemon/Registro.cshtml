@@ -1,4 +1,25 @@
 ﻿@page
 @model PoyectoPokedexApi.Pages.Pokemon.RegistroModel
-@{
-}
+
+<div class="container text-center mt-5">
+    <h1 class="text-primary">Pokemasters</h1>
+
+    <h2 class="text-warning mt-4">REGÍSTRATE</h2>
+    <h3 class="mt-2">PARA INICIAR TU CARRERA A POKEMASTER</h3>
+
+    <form method="post" class="mt-4">
+        <div class="form-group">
+            <input type="text" class="form-control mb-3" id="nombre" name="nombre" asp-for="Nombre" placeholder="Nombre" required />
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control mb-3" id="username" name="username" asp-for="UserName" placeholder="Nombre de Usuario" required />
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control mb-3" id="password" name="password" asp-for="Password" placeholder="Contraseña" required />
+        </div>
+        <div class="form-group">
+            <p>¿Ya tienes una <a href="/Login" class="text-decoration-none text-primary">cuenta?</a></p>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg w-100">REGISTRARSE</button>
+    </form>
+</div>

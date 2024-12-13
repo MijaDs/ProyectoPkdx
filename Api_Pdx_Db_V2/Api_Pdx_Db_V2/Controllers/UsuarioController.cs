@@ -103,7 +103,8 @@ namespace Api_Pdx_Db_V2.Controllers
             }
 
             // Verificar contraseña (hashed)
-            if (!BCrypt.Net.BCrypt.Verify(login.Password, usuario.Pass))
+            //if (!BCrypt.Net.BCrypt.Verify(login.Password, usuario.Pass))
+            if(login.Password != usuario.Pass)
             {
                 return Unauthorized("Usuario o contraseña incorrectos.");
             }

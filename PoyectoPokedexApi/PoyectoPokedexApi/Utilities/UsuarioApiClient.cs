@@ -76,7 +76,17 @@ namespace PoyectoPokedexApi.Utilities
             return null; // Retorna null si la solicitud no es exitosa
         }
 
-
+        public async Task<UsuarioModel> Registro(UsuarioModel usuario)
+        {
+            var response = await _httpClient.PostAsJsonAsync("usuario", usuario);
+            if (response.IsSuccessStatusCode)
+            {
+                // Si la respuesta es exitosa, deserializar la respuesta JSON
+                var responseData = await response.Content.ReadFromJsonAsync<UsuarioModel>();
+                return responseData;
+            }
+            throw new Exception($"Error al realizar registro: {response.ReasonPhrase}");
+        }
 
 
     }

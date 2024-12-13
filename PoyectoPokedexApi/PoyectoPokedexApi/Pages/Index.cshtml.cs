@@ -23,8 +23,7 @@ namespace PoyectoPokedexApi.Pages
         {
             try
             {
-                // Llama al método que realiza la solicitud
-                await UsuarioApiClient.EjecutarTask(); 
+                await UsuarioApiClient.EjecutarTask(); // Llama al método que realiza la solicitud
                 return new JsonResult("Conexion Exitosa");
             }
             catch (Exception ex)
