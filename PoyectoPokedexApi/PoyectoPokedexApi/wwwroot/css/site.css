@@ -21,7 +21,10 @@ body {
   margin-bottom: 60px;
 }
 
-
+.scrollable-table-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
 
 
 /* Estilo para los enlaces Login y Registrarse */

@@ -14,8 +14,10 @@ builder.Services.AddHttpClient<UsuarioApiClient>(client =>
     client.BaseAddress = new Uri("https://localhost:7068/Api_Pdx_DbV2/"); // Base URL de la API
 });
 
-
-
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Configura el tiempo de espera de la sesión
+});
 
 var connectionString = builder.Configuration.GetConnectionString("AccesoConexion");
 
@@ -40,11 +42,11 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// Asegurarse de que UseSession esté antes de UseRouting
+app.UseSession();
+
+app.UseRouting();
 app.UseHttpsRedirection(); // Redirección a HTTPS
-app.UseStaticFiles(); // Archivos estáticos como imágenes, CSS, JS
-
-app.UseRouting(); // Para las rutas de Razor Pages
-
 app.UseAuthorization(); // Para la autorización de usuarios
 
 app.MapRazorPages(); // Mapear las páginas Razor

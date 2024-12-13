@@ -1,15 +1,16 @@
 ﻿@page
 @model PoyectoPokedexApi.Pages.Pokemon.IndexModel
 
+
 <div class="container">
     <div id="pokemonCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            @for (int i = 0; i < Model.pokemonList.Count; i += 8) // Cada "carousel-item" contiene 16 Pokémon
+            @for (int i = 0; i < Model.pokemonList.Count; i += 8) // Cada "carousel-item" contiene 8 Pokémon
             {
                 var isActive = i == 0 ? "active" : ""; // Para marcar el primer "carousel-item" como activo
                 <div class="carousel-item @isActive">
                     <div class="row">
-                        @for (int j = i; j < i + 4 && j < Model.pokemonList.Count; j++) // Primera fila de 8 Pokémon
+                        @for (int j = i; j < i + 4 && j < Model.pokemonList.Count; j++) // Primera fila de 4 Pokémon
                         {
                             var pokemonItem = Model.pokemonList[j];
                             <div class="col-3">
@@ -20,6 +21,8 @@
                                         <p class="card-text">ID: @pokemonItem.id</p>
                                         <p class="card-text">Altura: @pokemonItem.height cm</p>
                                         <p class="card-text">Peso: @pokemonItem.weight kg</p>
+
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -27,7 +30,7 @@
                     </div>
                     <br />
                     <div class="row">
-                        @for (int j = i + 4; j < i + 8 && j < Model.pokemonList.Count; j++) // Segunda fila de 8 Pokémon
+                        @for (int j = i + 4; j < i + 8 && j < Model.pokemonList.Count; j++) // Segunda fila de 4 Pokémon
                         {
                             var pokemonItem = Model.pokemonList[j];
                             <div class="col-3">
@@ -38,6 +41,8 @@
                                         <p class="card-text">ID: @pokemonItem.id</p>
                                         <p class="card-text">Altura: @pokemonItem.height cm</p>
                                         <p class="card-text">Peso: @pokemonItem.weight kg</p>
+
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -57,3 +62,4 @@
         </button>
     </div>
 </div>
+

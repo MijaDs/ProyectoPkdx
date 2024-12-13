@@ -33,57 +33,54 @@ namespace Api_Pdx_Db_V2.Controllers
             return Ok(datos);
         }
 
-        [HttpPost("AgregarUsuarioPkm")]
-        public async Task<IActionResult>agreagrUsuarioPkm([FromBody] UsuarioPkmModel usuarioPkm, [FromServices] PokeCliet pokeCliet)
+        [HttpPost("AgregarPkm/{idUsuario}/{idPkm}")]
+        public async Task<IActionResult> AgregarUsuarioPkm(int idUsuario, int idPkm, [FromServices] PokeCliet pokeCliet)
         {
-            if (usuarioPkm == null)
+            if (idUsuario <= 0 || idPkm <= 0)
             {
-                return BadRequest("Los datos del Pokémon son inválidos.");
+                return BadRequest("Los valores de los parámetros son inválidos.");
             }
 
             // Validar que el IdUsuario exista en la tabla Usuario
             var usuario = await _conexionContext.usuario
-                .FirstOrDefaultAsync(u => u.Id == usuarioPkm.IdUsuario);
+                .FirstOrDefaultAsync(u => u.Id == idUsuario);
 
             if (usuario == null)
             {
-                return BadRequest($"El usuario con ID {usuarioPkm.IdUsuario} no existe.");
+                return BadRequest($"El usuario con ID {idUsuario} no existe.");
             }
-
-            
 
             try
             {
                 // Obtener los datos del Pokémon desde la API
-                var pokemonData = await pokeCliet.GetPokemon(usuarioPkm.pkm_id.ToString());
-                if(pokemonData == null)
+                var pokemonData = await pokeCliet.GetPokemon(idPkm.ToString());
+                if (pokemonData == null)
                 {
-                    return BadRequest("Datos no econtrados");
+                    return BadRequest("Datos del Pokémon no encontrados.");
                 }
-                // Asignar siempre el estado 1
-                usuarioPkm.estado = 1;
 
-                // Crear la entidad para la base de datos
-                var nuevoUsuarioPkm = new UsuarioPkmModel
+                // Asignar siempre el estado 1
+                var usuarioPkm = new UsuarioPkmModel
                 {
-                    IdUsuario = usuarioPkm.IdUsuario,
+                    IdUsuario = idUsuario,
                     pkm_id = pokemonData.id,
                     nombre = pokemonData.name,
-                    estado = usuarioPkm.estado  // Este valor será siempre 1
+                    estado = 1 // Este valor será siempre 1
                 };
 
                 // Insertar el nuevo UsuarioPkm en la base de datos
-                _conexionContext.usuario_pkm.Add(nuevoUsuarioPkm);
+                _conexionContext.usuario_pkm.Add(usuarioPkm);
                 await _conexionContext.SaveChangesAsync();
 
                 // Devolver la respuesta con el objeto recién creado
-                return Ok("Pokemon agregado correctamente");
+                return Ok("Pokémon agregado correctamente");
             }
             catch (Exception ex)
             {
                 return StatusCode(500, $"Error al crear el usuario Pokémon: {ex.Message}");
             }
         }
+
 
 
         [HttpDelete("EliminarUsuarioPkm/{idUsuario}/{idPkm}/{idUsuarioPkm}")]

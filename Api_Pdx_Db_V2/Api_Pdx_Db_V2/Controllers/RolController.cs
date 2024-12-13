@@ -20,5 +20,18 @@ namespace Api_Pdx_Db_V2.Controllers
         {
             return Ok(_conexionContext.rol.ToList());
         }
+
+        // Obtener un usuario por ID
+        [HttpGet("rol/{id}")]
+        public ActionResult<RolModel> GetRolPorId(int id)
+        {
+            var rol = _conexionContext.rol.Find(id);
+
+            if (rol == null)
+            {
+                return NotFound("rol no encontrado.");
+            }
+            return Ok(rol.Descripcion);
+        }
     }
 }

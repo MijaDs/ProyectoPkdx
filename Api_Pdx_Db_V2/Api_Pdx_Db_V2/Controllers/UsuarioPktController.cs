@@ -38,93 +38,142 @@ namespace Api_Pdx_Db_V2.Controllers
 
         //Asigna los primeros 3 pokemon regitrados de la tabla por usuario
         //por usuario para 
-        [HttpPost("Asignar-pocket")]
-        public async Task<ActionResult> asignarPocketUsuario(int _idUsuario) 
+        [HttpPost("AsignarPocket")]
+        public async Task<ActionResult> AsignarPocketUsuario(int _idUsuario, int _idPokemon)
         {
-            //busca lo datos de la lista pokemo user 
+            // Verifica si el Pokémon existe y pertenece al usuario
             var pkmUsuario = await _conexionContext.usuario_pkm
-            .Where(up => up.IdUsuario == _idUsuario && up.estado == 1)
-            .ToListAsync();
-            
-            if (pkmUsuario.Count < 3) {
-                return BadRequest("Se necesitan al menos 3 pokemnon para asignar");
+                .FirstOrDefaultAsync(up => up.IdUsuario == _idUsuario && up.pkm_id == _idPokemon && up.estado == 1); // Estado "activo" (estado = 1)
+
+            if (pkmUsuario == null)
+            {
+                return NotFound("El Pokémon no existe o no está activo.");
             }
 
-            //agrega los primeros 3 al poket
-            var pkmSeleccionados = pkmUsuario.Take(3).ToList();
+            // Verifica si el pocket del usuario ya tiene Pokémon asignados
+            var pocketExistente = await _conexionContext.usuario_pocket
+                .FirstOrDefaultAsync(up => up.IdUsuario == _idUsuario);
 
-            foreach (var pkm in pkmSeleccionados)
+            if (pocketExistente != null)
             {
-               pkm.estado = 2; // Cambiar a estado "Poket"
+                // Verifica si el pocket está lleno
+                if (pocketExistente.pkm_Id1 != 0 && pocketExistente.pkm_Id2 != 0 && pocketExistente.pkm_Id3 != 0)
+                {
+                    return BadRequest("El pocket está lleno. ¿Desea reemplazar uno de los Pokémon?");
+                }
+
+                // Agrega el Pokémon al primer espacio disponible en el pocket
+                if (pocketExistente.pkm_Id1 == 0)
+                {
+                    pocketExistente.pkm_Id1 = _idPokemon;
+                }
+                else if (pocketExistente.pkm_Id2 == 0)
+                {
+                    pocketExistente.pkm_Id2 = _idPokemon;
+                }
+                else if (pocketExistente.pkm_Id3 == 0)
+                {
+                    pocketExistente.pkm_Id3 = _idPokemon;
+                }
             }
-            // Crear un nuevo pocket
-            
-            var nuevoPocket = new UsuarioPktModel
+            else
             {
-                IdUsuario = _idUsuario,
-                pkm_Id1 = pkmSeleccionados[0].Id,
-                pkm_Id2 = pkmSeleccionados[1].Id,
-                pkm_Id3 = pkmSeleccionados[2].Id
+                // Crear un nuevo pocket si no existe
+                var nuevoPocket = new UsuarioPktModel
+                {
+                    IdUsuario = _idUsuario,
+                    pkm_Id1 = _idPokemon,
+                    pkm_Id2 = 0,
+                    pkm_Id3 = 0
+                };
 
-            };
+                _conexionContext.usuario_pocket.Add(nuevoPocket);
+            }
+
+            // Cambiar el estado del Pokémon a "Poket"
+            pkmUsuario.estado = 2;
+
             try
             {
-                // Agregar el nuevo pocket a la base de datos
-                _conexionContext.usuario_pocket.Add(nuevoPocket);
                 // Guardar los cambios en la base de datos
                 await _conexionContext.SaveChangesAsync();
-                return Ok("Pocket agregado.");
+                return Ok("Pokémon agregado al pocket.");
             }
             catch (Exception ex)
             {
                 // Manejo de errores
-                 return BadRequest($"Error al agregar el pocket: {ex.Message}");
+                return BadRequest($"Error al agregar el Pokémon al pocket: {ex.Message}");
             }
-            //_conexionContext.usuario_pocket.Add(nuevoPocket);
-
-            //return Ok("Poket agregado");
         }
+
         //busca por id
 
-        [HttpPut("remplazar-pokemon")]
-        public ActionResult ReemplazarPokt(int idUsuario, int pkmIdRemplazar, int idPkmNuevo)
+        [HttpPut("intercambiar")]
+        public ActionResult IntercambiarPokemons(int idUsuario, int pkmId1, int pkmId2)
         {
             var pocket = _conexionContext.usuario_pocket.FirstOrDefault(up => up.IdUsuario == idUsuario);
             if (pocket == null)
             {
                 return NotFound("Pocket no encontrado para el usuario.");
             }
-            // Verificar si el Pokémon a reemplazar está en el pocket
 
-            if (pocket.pkm_Id1 == pkmIdRemplazar)
+            // Verificar si ambos Pokémon están en el pocket
+            bool isPkm1InPocket = pocket.pkm_Id1 == pkmId1 || pocket.pkm_Id2 == pkmId1 || pocket.pkm_Id3 == pkmId1;
+            bool isPkm2InPocket = pocket.pkm_Id1 == pkmId2 || pocket.pkm_Id2 == pkmId2 || pocket.pkm_Id3 == pkmId2;
+
+            if (!isPkm1InPocket && !isPkm2InPocket)
             {
-                pocket.pkm_Id1 = idPkmNuevo;
+                return BadRequest("Ninguno de los Pokémon a intercambiar se encuentra en el pocket.");
             }
-            else if (pocket.pkm_Id2 == pkmIdRemplazar)
+
+            // Intercambiar los Pokémon en el pocket
+            if (pocket.pkm_Id1 == pkmId1)
             {
-                pocket.pkm_Id2 = idPkmNuevo;
+                pocket.pkm_Id1 = pkmId2;
             }
-            else if (pocket.pkm_Id3 == pkmIdRemplazar)
+            else if (pocket.pkm_Id2 == pkmId1)
             {
-                pocket.pkm_Id3 = idPkmNuevo;
+                pocket.pkm_Id2 = pkmId2;
+            }
+            else if (pocket.pkm_Id3 == pkmId1)
+            {
+                pocket.pkm_Id3 = pkmId2;
+            }
+
+            if (pocket.pkm_Id1 == pkmId2)
+            {
+                pocket.pkm_Id1 = pkmId1;
+            }
+            else if (pocket.pkm_Id2 == pkmId2)
+            {
+                pocket.pkm_Id2 = pkmId1;
+            }
+            else if (pocket.pkm_Id3 == pkmId2)
+            {
+                pocket.pkm_Id3 = pkmId1;
+            }
+
+            // Actualizar el estado de los Pokémon en la base de datos
+            var pkm1 = _conexionContext.usuario_pkm.FirstOrDefault(up => up.IdUsuario == idUsuario && up.pkm_id == pkmId1);
+            var pkm2 = _conexionContext.usuario_pkm.FirstOrDefault(up => up.IdUsuario == idUsuario && up.pkm_id == pkmId2);
+
+            if (pkm1 != null && pkm2 != null)
+            {
+                pkm1.estado = isPkm2InPocket ? 2 : 1; // Cambiar estado basado en la nueva ubicación
+                pkm2.estado = isPkm1InPocket ? 2 : 1; // Cambiar estado basado en la nueva ubicación
+
+                _conexionContext.usuario_pkm.Update(pkm1);
+                _conexionContext.usuario_pkm.Update(pkm2);
             }
             else
             {
-                return BadRequest("El Pokémon a reemplazar no se encuentra en el pocket.");
+                return NotFound("Uno o ambos Pokémon no se encuentran en la base de datos.");
             }
 
-            var pkmReemplazado = _conexionContext.usuario_pkm.Find(pkmIdRemplazar);
-            if(pkmReemplazado != null)
-            {
-                pkmReemplazado.estado = 1;
-            }
-            var pkmNuevo = _conexionContext.usuario_pkm.Find(idPkmNuevo);
-            if (pkmNuevo != null)
-            {
-                pkmNuevo.estado = 2; // Cambiar a estado "Poket"
-            }
+            _conexionContext.usuario_pocket.Update(pocket);
             _conexionContext.SaveChanges();
-            return Ok("Pokémon reemplazado con éxito.");
+            return Ok("Pokémon intercambiados con éxito.");
         }
+
     }
 }

@@ -3,14 +3,14 @@
     <StaticWebAssetEndpoint Include="_content/PoyectoPokedexApi/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zwUzaEQMjmFrgqef7BUjSRoXFZMVTTIQKX74wYFhpf0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1659"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zwUzaEQMjmFrgqef7BUjSRoXFZMVTTIQKX74wYFhpf0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 01:03:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-omlpEbXelWihLqxsxlNZ\u002BRUXqBcO8BYLkNk5\u002BPQT4zc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1738"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022omlpEbXelWihLqxsxlNZ\u002BRUXqBcO8BYLkNk5\u002BPQT4zc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 04:48:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PoyectoPokedexApi/css/site.jfaksu8l0d.css">
+    <StaticWebAssetEndpoint Include="_content/PoyectoPokedexApi/css/site.y7sqdq7xis.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jfaksu8l0d"},{"Name":"integrity","Value":"sha256-zwUzaEQMjmFrgqef7BUjSRoXFZMVTTIQKX74wYFhpf0="},{"Name":"label","Value":"_content/PoyectoPokedexApi/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1659"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zwUzaEQMjmFrgqef7BUjSRoXFZMVTTIQKX74wYFhpf0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 01:03:48 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y7sqdq7xis"},{"Name":"integrity","Value":"sha256-omlpEbXelWihLqxsxlNZ\u002BRUXqBcO8BYLkNk5\u002BPQT4zc="},{"Name":"label","Value":"_content/PoyectoPokedexApi/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1738"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022omlpEbXelWihLqxsxlNZ\u002BRUXqBcO8BYLkNk5\u002BPQT4zc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 04:48:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PoyectoPokedexApi/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -724,13 +724,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PoyectoPokedexApi.wz2okaevla.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1D4aPar1bfHlo2sF8QULS0IwG9QdBlq8NBqvnTg8zhA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221D4aPar1bfHlo2sF8QULS0IwG9QdBlq8NBqvnTg8zhA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 02:06:17 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221D4aPar1bfHlo2sF8QULS0IwG9QdBlq8NBqvnTg8zhA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 13:03:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PoyectoPokedexApi/PoyectoPokedexApi.wz2okaevla.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\PoyectoPokedexApi.wz2okaevla.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wz2okaevla"},{"Name":"integrity","Value":"sha256-1D4aPar1bfHlo2sF8QULS0IwG9QdBlq8NBqvnTg8zhA="},{"Name":"label","Value":"_content/PoyectoPokedexApi/PoyectoPokedexApi.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221D4aPar1bfHlo2sF8QULS0IwG9QdBlq8NBqvnTg8zhA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Dec 2024 02:06:17 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1137"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00221D4aPar1bfHlo2sF8QULS0IwG9QdBlq8NBqvnTg8zhA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 13:03:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

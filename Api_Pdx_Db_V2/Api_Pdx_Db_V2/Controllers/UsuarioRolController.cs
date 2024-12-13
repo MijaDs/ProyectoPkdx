@@ -20,6 +20,7 @@ namespace Api_Pdx_Db_V2.Controllers
             return Ok(_conexionContext.usuario_rol.ToList());
         }
 
+
         [HttpPut("{idUsuario}")]
         public ActionResult CambiarRolDeUsuario(int idUsuario, [FromBody] int nuevoIdRol)
         {
@@ -45,8 +46,21 @@ namespace Api_Pdx_Db_V2.Controllers
             _conexionContext.SaveChanges();
 
             return Ok("Rol del usuario actualizado exitosamente.");
+        }
 
 
+        [HttpGet("Optener rol usuario")]
+        public ActionResult<UsuarioRolModel> ObtenerRolUsurio( int id)
+        {
+            var usuarioRol = _conexionContext.usuario_rol.FirstOrDefault(ur => ur.IdUsuario == id);
+
+            if (usuarioRol == null)
+            {
+                return NotFound("El usuario no tiene roles asignados.");
+            }
+            var rol = _conexionContext.rol.FirstOrDefault(r =>r.Id == usuarioRol.IdRol);
+
+            return Ok(rol.Descripcion);
         }
     }
 }
