@@ -38,8 +38,7 @@
               "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T07:11:05.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T07:11:05.979Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
               "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
               "RelativeToolTip": "Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T05:22:26.96Z",
               "EditorCaption": ""
@@ -60,9 +59,9 @@
               "Title": "UsuarioPkmController.cs",
               "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
               "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs*",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T05:13:49.395Z",
               "EditorCaption": ""
@@ -77,8 +76,7 @@
               "RelativeToolTip": "Api_Pdx_Db_V2\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-13T05:02:31.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T05:02:31.395Z"
             }
           ]
         }

@@ -16,13 +16,60 @@
 		<div class="col-3">
 			<div class="form-floating my-3">
 				<select class="form-select" id="floatingSelectGrid">
-					<option selected>Selecciona el Pockemon para agregar al equipo</option>
-					<option value="1">One</option>
-					<option value="2">Two</option>
-					<option value="3">Three</option>
+					<option selected>Para agregar al equipo</option>
+					@* aqui van los nombres de los pokemon de la respuesta *@
 				</select>
-				<label for="floatingSelectGrid">Works with selects</label>
+				<label for="floatingSelectGrid">Elije un pokemon</label>
 			</div>
 		</div>
 	</row>
 </div>
+
+
+
+<script>
+    // ID del usuario que deseas usar para consultar el API
+    const userId = 1; // Cambiar según sea necesario
+
+    // URL del endpoint
+
+    const apiUrl = `https://localhost:7068/Api_Pdx_DbV2/UsuarioPkm/$1002/PkmActivo`;
+
+    // Función para llenar el select con los datos obtenidos del API
+    async function loadPokemonData() {
+        try {
+            // Llamada al API
+            const response = await fetch(apiUrl);
+
+            if (!response.ok) {
+                console.error("Error al obtener los datos:", response.statusText);
+                return;
+            }
+
+            // Parsear los datos obtenidos
+            const data = await response.json();
+
+            // Obtener el select del DOM
+            const select = document.getElementById("pokemonSelect");
+
+            // Limpiar opciones previas (excepto el placeholder)
+            select.innerHTML = `<option selected>Selecciona el Pokémon para agregar al equipo</option>`;
+
+            // Agregar las opciones dinámicamente
+            data.forEach(pokemon => {
+                const option = document.createElement("option");
+                option.value = pokemon.pkm_id; // Usar el ID o cualquier valor único
+                option.textContent = pokemon.nombre; // Nombre del Pokémon
+                select.appendChild(option);
+            });
+        } catch (error) {
+            console.error("Error al conectar con el API:", error);
+        }
+    }
+
+    // Llamar a la función al cargar la página
+        document.addEventListener("DOMContentLoaded", async () => {
+        await loadPokemonData();
+    });
+
+</script>
