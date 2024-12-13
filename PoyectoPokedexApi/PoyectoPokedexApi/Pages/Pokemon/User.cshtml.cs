@@ -68,7 +68,7 @@ namespace PoyectoPokedexApi.Pages.Pokemon
 
 
                 }
-                UsuarioPkms = (List<RetoModel>)await = _usuarioApiClient.ObtenerRetos(Usuario.Id);
+                //UsuarioPkms = (List<RetoModel>)await = _usuarioApiClient.ObtenerRetos(Usuario.Id);
                 foreach( var reto in UsuarioPkms)
                 {
 

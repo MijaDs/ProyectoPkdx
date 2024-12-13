@@ -10,8 +10,8 @@ namespace PoyectoPokedexApi.Utilities
     {
         private readonly HttpClient _httpClient;
 
-        public UsuarioApiClient(HttpClient httpClient) 
-        { 
+        public UsuarioApiClient(HttpClient httpClient)
+        {
             _httpClient = httpClient;
         }
 
@@ -215,12 +215,11 @@ namespace PoyectoPokedexApi.Utilities
             {
                 var response = await _httpClient.PostAsync(url, null);
                 return response.IsSuccessStatusCode;
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 return false;
             }
         }
-
-        public
     }
 }
