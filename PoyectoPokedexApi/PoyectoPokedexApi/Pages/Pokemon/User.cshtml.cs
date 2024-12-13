@@ -14,7 +14,10 @@ namespace PoyectoPokedexApi.Pages.Pokemon
         private readonly UsuarioApiClient _usuarioApiClient;
         public UsuarioModel Usuario { get; set; }
         public List<UsuarioPkmModel> UsuarioPkms { get; set; } = new List<UsuarioPkmModel>();
-        public List<PokemonModel> pokemon { get; set; } = new List<PokemonModel>(); 
+        public List<PokemonModel> pokemon { get; set; } = new List<PokemonModel>();
+
+        public List<RetoModel> retos { get; set; } = new List<RetoModel>();
+
         
         [BindProperty]
         public int PokemonId { get; set; }
@@ -33,6 +36,7 @@ namespace PoyectoPokedexApi.Pages.Pokemon
 
         public async Task OnGet()
         {
+            retos = new List<RetoModel>();
             // Ensure the list is initialized
             pokemon = new List<PokemonModel>();
 
@@ -61,7 +65,15 @@ namespace PoyectoPokedexApi.Pages.Pokemon
                         types = pokemonDetail.types,
                         estado = estado.Estado
                     });
+
+
                 }
+                UsuarioPkms = (List<RetoModel>)await = _usuarioApiClient.ObtenerRetos(Usuario.Id);
+                foreach( var reto in UsuarioPkms)
+                {
+
+                }
+                
                 TempData["Usuario"] = JsonConvert.SerializeObject(Usuario);
             }
             else

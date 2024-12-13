@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\",
+  "WorkspaceRootPath": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|c:\\laragon\\www\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\enfermeriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\enfermeriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|c:\\laragon\\www\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\models\\usuariopkmmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\models\\usuariopkmmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\retoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\retoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|c:\\laragon\\www\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\controllers\\usuariopkmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\controllers\\usuariopkmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\models\\retomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\models\\retomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|d:\\proyectosvs\\proyectopkdx\\api_pdx_db_v2\\api_pdx_db_v2\\data\\dbconexioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{079EA053-420D-4C51-8EAC-7DDFEAEB1B45}|Api_Pdx_Db_V2\\Api_Pdx_Db_V2.csproj|solutionrelative:api_pdx_db_v2\\data\\dbconexioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\appsettings.json",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\appsettings.json",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\appsettings.json*",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-13T16:14:36.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioPkmController.cs",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\UsuarioPkmController.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAAIwLEAAABAAAAAAAAAAA==",
+              "Title": "EnfermeriaController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\EnfermeriaController.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\EnfermeriaController.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\EnfermeriaController.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\EnfermeriaController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:54:57.685Z",
+              "WhenOpened": "2024-12-13T15:49:16.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioPkmModel.cs",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "RelativeToolTip": "Api_Pdx_Db_V2\\Models\\UsuarioPkmModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "RetosController.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\RetosController.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Controllers\\RetosController.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Controllers\\RetosController.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Controllers\\RetosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T05:02:49.979Z",
+              "WhenOpened": "2024-12-13T15:16:00.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RetoModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\RetoModel.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Models\\RetoModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Models\\RetoModel.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Models\\RetoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T15:05:15.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbConexionContext.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
+              "RelativeDocumentMoniker": "Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\Api_Pdx_Db_V2\\Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
+              "RelativeToolTip": "Api_Pdx_Db_V2\\Data\\DbConexionContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:44:06.877Z",
               "EditorCaption": ""
             }
           ]
