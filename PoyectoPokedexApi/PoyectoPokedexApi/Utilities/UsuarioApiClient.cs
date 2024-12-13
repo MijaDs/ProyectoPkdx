@@ -207,5 +207,20 @@ namespace PoyectoPokedexApi.Utilities
                 return false;
             }
         }
+
+        public async Task<bool> CrearReto(int IdUser1, int IdUser2)
+        {
+            var url = $"https://localhost:7068/Api_Pdx_DbV2/Retos/CrearReto/{IdUser1}/{IdUser2}";
+            try
+            {
+                var response = await _httpClient.PostAsync(url, null);
+                return response.IsSuccessStatusCode;
+            }catch(Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public
     }
 }

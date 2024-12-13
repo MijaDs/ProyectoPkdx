@@ -37,7 +37,7 @@ namespace Api_Pdx_Db_V2.Controllers
             }
 
             var pokUsuario1 = await _conexionContext.usuario_pocket
-                .Where(p => p.IdUsuario == idUser1) 
+                .Where(p => p.IdUsuario == idUser1)
                 .ToListAsync();
 
             if (!pokUsuario1.Any())
@@ -64,36 +64,35 @@ namespace Api_Pdx_Db_V2.Controllers
             }
 
             var pokUsuario2 = await _conexionContext.usuario_pocket
-                .Where(p => p.IdUsuario == idUser1)
+                .Where(p => p.IdUsuario == idUser2)
                 .ToListAsync();
 
-            if (!pokUsuario1.Any())
+            if (!pokUsuario2.Any())
             {
-                return BadRequest("El usuario 1 no tiene Pokémon en estado válido para participar.");
+                return BadRequest("El usuario 2 no tiene Pokémon en estado válido para participar.");
             }
 
-            var idsPokemonsUsuario2 = pokUsuario1.Select(p => new { p.pkm_Id1, p.pkm_Id2, p.pkm_Id3 }).FirstOrDefault();
+            var idsPokemonsUsuario2 = pokUsuario2.Select(p => new { p.pkm_Id1, p.pkm_Id2, p.pkm_Id3 }).FirstOrDefault();
 
-            if (idsPokemonsUsuario1 != null)
+            if (idsPokemonsUsuario2 != null)
             {
-                var pokemonsUsuario1 = await _conexionContext.usuario_pkm
-                    .Where(p => p.IdUsuario == idUser1 &&
-                                (p.Id == idsPokemonsUsuario1.pkm_Id1 ||
-                                 p.Id == idsPokemonsUsuario1.pkm_Id2 ||
-                                 p.Id == idsPokemonsUsuario1.pkm_Id3) &&
+                var pokemonsUsuario2 = await _conexionContext.usuario_pkm
+                    .Where(p => p.IdUsuario == idUser2 &&
+                                (p.Id == idsPokemonsUsuario2.pkm_Id1 ||
+                                 p.Id == idsPokemonsUsuario2.pkm_Id2 ||
+                                 p.Id == idsPokemonsUsuario2.pkm_Id3) &&
                                 p.estado == 3) // Estado "Debilitado" (estado = 3)
                     .ToListAsync();
 
-                if (pokemonsUsuario1.Any())
+                if (pokemonsUsuario2.Any())
                 {
-                    return BadRequest("El usuario 1 tiene Pokémon debilitados y no puede participar.");
+                    return BadRequest("El usuario 2 tiene Pokémon debilitados y no puede participar.");
                 }
             }
 
-
             // Seleccionar un mensaje aleatorio de la tabla mensajesPred
             var mensajeAleatorio = await _conexionContext.mensajes
-                .OrderBy(m => Guid.NewGuid()) // Selección aleatoria
+                .OrderBy(m => EF.Functions.Random()) // Selección aleatoria
                 .Select(m => m.Mensaje)
                 .FirstOrDefaultAsync();
 
@@ -104,39 +103,6 @@ namespace Api_Pdx_Db_V2.Controllers
 
             // Seleccionar aleatoriamente un ganador
             var ganador = (new Random().Next(0, 2) == 0) ? idUser1 : idUser2;
-            var perdedor = (ganador == idUser1) ? idUser2 : idUser1;
-
-            // Obtener los pkm_id relacionados con el usuario perdedor desde la tabla usuario_pkt
-            var pokUsuarioPerdedor = await _conexionContext.usuario_pocket
-                .Where(p => p.IdUsuario == perdedor)
-                .ToListAsync();
-
-            // Filtrar los pkm_id del perdedor (los Pokémon que participan en el reto)
-            var pkmIdsPerdedor = pokUsuarioPerdedor.Select(p => new { p.pkm_Id1, p.pkm_Id2, p.pkm_Id3 }).FirstOrDefault();
-
-            // Verificar que existen Pokémon para actualizar
-            if (pkmIdsPerdedor != null)
-            {
-                // Actualizar solo los Pokémon relacionados con esos pkm_id en la tabla usuario_pkm
-                var pokemonsPerdedor = await _conexionContext.usuario_pkm
-                    .Where(p => p.IdUsuario == perdedor &&
-                                (p.Id == pkmIdsPerdedor.pkm_Id1 ||
-                                 p.Id == pkmIdsPerdedor.pkm_Id2 ||
-                                 p.Id == pkmIdsPerdedor.pkm_Id3))
-                    .ToListAsync();
-
-                foreach (var pkm in pokemonsPerdedor)
-                {
-                    pkm.estado = 3; // Estado 'Debilitado'
-                }
-
-                // Guardar los cambios en la base de datos
-                await _conexionContext.SaveChangesAsync();
-            }
-            else
-            {
-                return BadRequest("No se encontraron Pokémon asociados al reto para el perdedor.");
-            }
 
             // Crear el objeto RetoModel y agregarlo a la base de datos
             var nuevoReto = new RetoModel
@@ -149,8 +115,10 @@ namespace Api_Pdx_Db_V2.Controllers
 
             _conexionContext.reto.Add(nuevoReto);
             await _conexionContext.SaveChangesAsync();
+
             // Retornar una respuesta exitosa con detalles del reto
             return Ok($"Reto creado exitosamente entre Usuario {idUser1} y Usuario {idUser2} con mensaje: {mensajeAleatorio}");
         }
+
     }
- }
+}
