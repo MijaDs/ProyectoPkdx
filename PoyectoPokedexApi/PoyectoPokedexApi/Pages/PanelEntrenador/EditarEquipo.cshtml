@@ -1,0 +1,28 @@
+﻿@page
+@model PoyectoPokedexApi.Pages.PanelEntrenador.EditarEquipoModel
+@{
+    ViewData["Title"] = "Enfermeria";
+}
+
+<style>
+    .text-orange-dark {
+        color: #DD8F00; /* Anaranjado oscuro */
+    }
+</style>
+
+<h3 class="text-orange-dark">Editar Equipo</h3>
+<div>
+	<row>
+		<div class="col-3">
+			<div class="form-floating my-3">
+				<select class="form-select" id="floatingSelectGrid">
+					<option selected>Selecciona el Pockemon para agregar al equipo</option>
+					<option value="1">One</option>
+					<option value="2">Two</option>
+					<option value="3">Three</option>
+				</select>
+				<label for="floatingSelectGrid">Works with selects</label>
+			</div>
+		</div>
+	</row>
+</div>

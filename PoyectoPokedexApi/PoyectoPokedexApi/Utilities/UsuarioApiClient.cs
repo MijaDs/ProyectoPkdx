@@ -76,7 +76,28 @@ namespace PoyectoPokedexApi.Utilities
             return null; // Retorna null si la solicitud no es exitosa
         }
 
+        [HttpPost("Registro")]
+        public async Task<LogResponse> Registro([FromBody] UsuarioModel usuario)
+        {
 
+            var content = new StringContent(JsonConvert.SerializeObject(usuario), Encoding.UTF8, "application/json");
+
+
+            var response = await _httpClient.PostAsync("https://localhost:7068/Api_Pdx_DbV2/Usuario/CrearUsuario", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var responseBody = await response.Content.ReadAsStringAsync();
+
+                //Console.WriteLine(responseBody);
+
+                var result = JsonConvert.DeserializeObject<LogResponse>(responseBody);
+
+                return result;
+            }
+
+            return null;
+        }
 
 
     }

@@ -33,6 +33,25 @@ namespace Api_Pdx_Db_V2.Controllers
             return Ok(datos);
         }
 
+        [HttpGet("{_idUsuario}/PkmActivo")]
+        public ActionResult<IEnumerable<UsuarioPkmModel>> ObtenerPkmsUsuarioConEstado(int _idUsuario)
+        {
+            var datos = _conexionContext.usuario_pkm
+                .Where(up => up.IdUsuario == _idUsuario && up.estado == 1)
+                .ToList();
+
+            if (datos == null || !datos.Any())
+            {
+                return NotFound("No se encontraron datos con el estado 1 para este usuario.");
+            }
+
+            return Ok(datos);
+        }
+
+
+
+
+
         [HttpPost("AgregarUsuarioPkm")]
         public async Task<IActionResult>agreagrUsuarioPkm([FromBody] UsuarioPkmModel usuarioPkm, [FromServices] PokeCliet pokeCliet)
         {
@@ -113,5 +132,68 @@ namespace Api_Pdx_Db_V2.Controllers
                 return StatusCode(500, $"Error al eliminar el Pokémon: {ex.Message}");
             }
         }
+
+        [HttpGet("ObtenerPorEstado/{estado}")]
+        public async Task<IActionResult> ObtenerPorEstado(int estado)
+        {
+            try
+            {
+                var resultados = await _conexionContext.usuario_pkm
+                    .Where(up => up.estado == estado)
+                    .Join(_conexionContext.usuario,
+                        up => up.IdUsuario,  
+                        u => u.Id,           
+                        (up, u) => new UsuarioPkmConNombreUsuario
+                        {
+                            Id = up.Id,
+                            IdUsuario = up.IdUsuario,
+                            pkm_id = up.pkm_id,
+                            nombre = up.nombre,
+                            estado = up.estado,
+                            NombreUsuario = u.Nombre 
+                        })
+                    .ToListAsync();
+
+                if (resultados == null || !resultados.Any())
+                {
+                    return Ok(new List<object>()); // Devuelve una lista vacía
+                }
+
+                return Ok(resultados); 
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error al obtener los registros: {ex.Message}");
+            }
+        }
+
+        [HttpPut("CurarPokemon/{id}")]
+        public async Task<IActionResult> CurarPokemon(int id)
+        {
+            try
+            {
+                var usuarioPkm = await _conexionContext.usuario_pkm.FirstOrDefaultAsync(up => up.Id == id);
+
+                if (usuarioPkm == null)
+                {
+                    return NotFound($"No se encontró el Pokémon con ID {id}.");
+                }
+
+                usuarioPkm.estado = 1;
+
+                _conexionContext.usuario_pkm.Update(usuarioPkm);
+                await _conexionContext.SaveChangesAsync();
+
+                return Ok($"El Pokémon con ID {id} ha sido curado exitosamente.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error al curar el Pokémon: {ex.Message}");
+            }
+        }
+
+
+
+
     }
 }

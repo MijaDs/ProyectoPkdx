@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\enfermeria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\enfermeria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\panelentrenador\\editarequipo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\panelentrenador\\editarequipo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\panelentrenador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\panelentrenador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 210,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowCYAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EditarEquipo.cshtml",
+              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelEntrenador\\EditarEquipo.cshtml",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\PanelEntrenador\\EditarEquipo.cshtml",
+              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelEntrenador\\EditarEquipo.cshtml*",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\PanelEntrenador\\EditarEquipo.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T03:45:40.127Z",
+              "WhenOpened": "2024-12-13T08:06:25.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Enfermeria\\Index.cshtml",
-              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Enfermeria\\Index.cshtml",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Enfermeria\\Index.cshtml*",
-              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Enfermeria\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelEntrenador\\Index.cshtml",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\PanelEntrenador\\Index.cshtml",
+              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelEntrenador\\Index.cshtml*",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\PanelEntrenador\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T03:25:29.448Z",
+              "WhenOpened": "2024-12-13T07:58:21.048Z",
               "EditorCaption": ""
             }
           ]

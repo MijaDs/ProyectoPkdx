@@ -24,7 +24,7 @@ namespace Api_Pdx_Db_V2.Controllers
         }
 
         // Crear un nuevo usuario
-        [HttpPost("Crear Usuario")]
+        [HttpPost("CrearUsuario")]
         public ActionResult<UsuarioModel> CrearUsuario([FromBody] UsuarioModel nuevoUsuario)
         {
             //Agrega el pass encriptado
@@ -47,9 +47,9 @@ namespace Api_Pdx_Db_V2.Controllers
 
                 // Agregar la relación a la tabla Usuario_Rol
                 _conexionContext.usuario_rol.Add(usuarioRol);
-               
 
-                return Ok("Usuario y rol asignado exitosamente.");
+
+                return Ok(new { mensaje = "creado" });
             }
             else
             {
