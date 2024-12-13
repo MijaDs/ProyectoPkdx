@@ -1,0 +1,114 @@
+﻿@page
+@model PoyectoPokedexApi.Pages.PanelAdmin.vistaAdminModel
+@{
+    ViewData["Title"] = "Panel de Administración";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Referencia al archivo CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Título con estilo personalizado y botón Agregar -->
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="text-warning" style="color: #DD8F00;">Usuarios</h2>
+            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addUserModal">Agregar</button>
+        </div>
+
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model.Users)
+                {
+                    <tr>
+                        <td>@user.Id</td>
+                        <td>@user.Name</td>
+                        <td>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editUserModal" data-id="@user.Id" data-name="@user.Name">Editar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <!-- Modal para agregar usuario -->
+        <div class="modal fade" id="addUserModal" tabindex="-1" aria-labelledby="addUserModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addUserModalLabel">Agregar Nuevo Usuario</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" asp-page-handler="AddUser">
+                            <div class="mb-3">
+                                <label for="newUserName" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="newUserName" name="NewUser.Name" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="newUserPassword" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="newUserPassword" name="NewUser.Pass" required />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Agregar Usuario</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para editar usuario -->
+        <div class="modal fade" id="editUserModal" tabindex="-1" aria-labelledby="editUserModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="editUserModalLabel">Editar Usuario</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" asp-page-handler="EditUser">
+                            <div class="mb-3">
+                                <label for="userId" class="form-label">ID</label>
+                                <input type="text" class="form-control" id="userId" name="SelectedUser.Id" readonly />
+                            </div>
+                            <div class="mb-3">
+                                <label for="userName" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="userName" name="SelectedUser.Name" required />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script>
+            // Cargar datos del usuario en el modal de edición
+            var editButtons = document.querySelectorAll('button[data-bs-toggle="modal"]');
+            editButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    var userId = button.getAttribute('data-id');
+                    var userName = button.getAttribute('data-name');
+
+                    document.getElementById('userId').value = userId;
+                    document.getElementById('userName').value = userName;
+                });
+            });
+        </script>
+    }
+</body>
+</html>

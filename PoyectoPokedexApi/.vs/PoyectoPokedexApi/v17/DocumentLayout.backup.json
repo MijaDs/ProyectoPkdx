@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\",
+  "WorkspaceRootPath": "C:\\Users\\morab\\OneDrive\\Documents\\Proyectos Progra\\ProyectoPkdx\\PoyectoPokedexApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\enfermeria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\enfermeria\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\users\\morab\\onedrive\\documents\\proyectos progra\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\paneladmin\\vistaadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\paneladmin\\vistaadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\users\\morab\\onedrive\\documents\\proyectos progra\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\paneladmin\\vistaadmin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\paneladmin\\vistaadmin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,30 +21,33 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowCYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T03:45:40.127Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Enfermeria\\Index.cshtml",
-              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Enfermeria\\Index.cshtml",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Enfermeria\\Index.cshtml*",
-              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Enfermeria\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Title": "vistaAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\morab\\OneDrive\\Documents\\Proyectos Progra\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelAdmin\\vistaAdmin.cshtml",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\PanelAdmin\\vistaAdmin.cshtml",
+              "ToolTip": "C:\\Users\\morab\\OneDrive\\Documents\\Proyectos Progra\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelAdmin\\vistaAdmin.cshtml",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\PanelAdmin\\vistaAdmin.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T03:25:29.448Z",
+              "WhenOpened": "2024-12-13T05:28:22.856Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vistaAdmin.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\morab\\OneDrive\\Documents\\Proyectos Progra\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelAdmin\\vistaAdmin.cshtml.cs",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\PanelAdmin\\vistaAdmin.cshtml.cs",
+              "ToolTip": "C:\\Users\\morab\\OneDrive\\Documents\\Proyectos Progra\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\PanelAdmin\\vistaAdmin.cshtml.cs",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\PanelAdmin\\vistaAdmin.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T05:29:32.141Z"
             }
           ]
         }
