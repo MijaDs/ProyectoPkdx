@@ -701,6 +701,101 @@
         }
       }
     },
+    "/Api_Pdx_DbV2/UsuarioPkm/{_idUsuario}/PkmActivo": {
+      "get": {
+        "tags": [
+          "UsuarioPkm"
+        ],
+        "parameters": [
+          {
+            "name": "_idUsuario",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioPkmModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioPkmModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioPkmModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Api_Pdx_DbV2/UsuarioPkm/ObtenerPorEstado/{estado}": {
+      "get": {
+        "tags": [
+          "UsuarioPkm"
+        ],
+        "parameters": [
+          {
+            "name": "estado",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Api_Pdx_DbV2/UsuarioPkm/CurarPokemon/{id}": {
+      "put": {
+        "tags": [
+          "UsuarioPkm"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Api_Pdx_DbV2/UsuarioPkt": {
       "get": {
         "tags": [
