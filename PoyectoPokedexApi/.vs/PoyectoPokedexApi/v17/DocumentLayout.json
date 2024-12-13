@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\",
+  "WorkspaceRootPath": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\pokemon\\user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\pokemon\\user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|d:\\proyectosvs\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\pokemon\\retos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\pokemon\\retos.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\models\\usuariomodel\\enfermeriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\models\\usuariomodel\\enfermeriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\utilities\\usuarioapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|d:\\proyectosvs\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\utilities\\usuarioapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\utilities\\usuarioapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|c:\\laragon\\www\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\pokemon\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|d:\\proyectosvs\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\pokemon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|d:\\proyectosvs\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\pokemon\\user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\pokemon\\user.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|d:\\proyectosvs\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\pokemon\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\pokemon\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|d:\\proyectosvs\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\pages\\pokemon\\retos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\pages\\pokemon\\retos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|d:\\proyectosvs\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\models\\usuariomodel\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\models\\usuariomodel\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|d:\\proyectosvs\\proyectopkdx\\poyectopokedexapi\\poyectopokedexapi\\models\\usuariomodel\\retomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B1BF5D0-47C9-4278-9DB4-192B5A7F4235}|PoyectoPokedexApi\\PoyectoPokedexApi.csproj|solutionrelative:poyectopokedexapi\\models\\usuariomodel\\retomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,60 +41,123 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 971,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 293,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Models\\UsuarioModel\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Models\\UsuarioModel\\UsuarioModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Models\\UsuarioModel\\UsuarioModel.cs",
+              "RelativeToolTip": "PoyectoPokedexApi\\Models\\UsuarioModel\\UsuarioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:55:03.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RetoModel.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Models\\UsuarioModel\\RetoModel.cs",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Models\\UsuarioModel\\RetoModel.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Models\\UsuarioModel\\RetoModel.cs",
+              "RelativeToolTip": "PoyectoPokedexApi\\Models\\UsuarioModel\\RetoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T19:57:47.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Retos.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\Retos.cshtml",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Pokemon\\Retos.cshtml",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\Retos.cshtml",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Pokemon\\Retos.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T18:49:04.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 408,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Retos.cshtml.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\Retos.cshtml.cs",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Pokemon\\Retos.cshtml.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\Retos.cshtml.cs",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Pokemon\\Retos.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T18:49:22.759Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 359,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\Index.cshtml",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Pokemon\\Index.cshtml",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\Index.cshtml",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Pokemon\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T20:15:20.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UsuarioApiClient.cs",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Utilities\\UsuarioApiClient.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Utilities\\UsuarioApiClient.cs",
               "RelativeDocumentMoniker": "PoyectoPokedexApi\\Utilities\\UsuarioApiClient.cs",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Utilities\\UsuarioApiClient.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Utilities\\UsuarioApiClient.cs",
               "RelativeToolTip": "PoyectoPokedexApi\\Utilities\\UsuarioApiClient.cs",
-              "ViewState": "AgIAAM4AAAAAAAAAAAAkwN8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwOAAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:03:46.153Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-12-13T20:17:13.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User.cshtml",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml",
-              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml",
-              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-13T15:04:01.655Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnfermeriaModel.cs",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Models\\UsuarioModel\\EnfermeriaModel.cs",
-              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Models\\UsuarioModel\\EnfermeriaModel.cs",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Models\\UsuarioModel\\EnfermeriaModel.cs",
-              "RelativeToolTip": "PoyectoPokedexApi\\Models\\UsuarioModel\\EnfermeriaModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
+              "Title": "User.cshtml.cs",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml.cs",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml.cs",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml.cs",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwF8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:50:01.969Z",
+              "WhenOpened": "2024-12-13T19:43:06.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cshtml.cs",
-              "DocumentMoniker": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml.cs",
-              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml.cs",
-              "ToolTip": "C:\\laragon\\www\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml.cs",
-              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowEYAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T15:04:08.883Z",
+              "DocumentIndex": 4,
+              "Title": "User.cshtml",
+              "DocumentMoniker": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml",
+              "RelativeDocumentMoniker": "PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml",
+              "ToolTip": "D:\\ProyectosVS\\ProyectoPkdx\\PoyectoPokedexApi\\PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml",
+              "RelativeToolTip": "PoyectoPokedexApi\\Pages\\Pokemon\\User.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-13T18:59:19.853Z",
               "EditorCaption": ""
             }
           ]

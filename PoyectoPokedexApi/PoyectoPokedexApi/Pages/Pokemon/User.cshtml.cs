@@ -11,12 +11,13 @@ namespace PoyectoPokedexApi.Pages.Pokemon
     public class UserModel : PageModel
     {
         private readonly PokeClient _pokeClient;
+
         private readonly UsuarioApiClient _usuarioApiClient;
         public UsuarioModel Usuario { get; set; }
         public List<UsuarioPkmModel> UsuarioPkms { get; set; } = new List<UsuarioPkmModel>();
         public List<PokemonModel> pokemon { get; set; } = new List<PokemonModel>();
 
-        public List<RetoModel> retos { get; set; } = new List<RetoModel>();
+        
 
         
         [BindProperty]
@@ -36,8 +37,8 @@ namespace PoyectoPokedexApi.Pages.Pokemon
 
         public async Task OnGet()
         {
-            retos = new List<RetoModel>();
-            // Ensure the list is initialized
+            
+            
             pokemon = new List<PokemonModel>();
 
             // Obtener el objeto Usuario de TempData
@@ -68,19 +69,16 @@ namespace PoyectoPokedexApi.Pages.Pokemon
 
 
                 }
-                //UsuarioPkms = (List<RetoModel>)await = _usuarioApiClient.ObtenerRetos(Usuario.Id);
-                foreach( var reto in UsuarioPkms)
-                {
-
-                }
+               
+                
                 
                 TempData["Usuario"] = JsonConvert.SerializeObject(Usuario);
             }
             else
             {
-                // Manejar el caso en que usuarioJson es null
+                
                 Console.WriteLine("usuarioJson es null. No se puede deserializar el usuario.");
-                // Aquí puedes redirigir a una página de error o mostrar un mensaje
+                
             }
         }
 
@@ -91,14 +89,14 @@ namespace PoyectoPokedexApi.Pages.Pokemon
             {
                 Usuario = JsonConvert.DeserializeObject<UsuarioModel>(TempData["Usuario"].ToString());
 
-                // Llama al método para intercambiar los Pokémon en el pocket del usuario
+                
                 var resultado = await _usuarioApiClient.ReemplazarPokemonAsync(Usuario.Id, pokemonIdReemplazar, nuevoPokemonId);
 
                 // Vuelve a almacenar el objeto Usuario en TempData
                 TempData["Usuario"] = JsonConvert.SerializeObject(Usuario);
             }
 
-            // Redirige a la misma página para mostrar el mensaje
+            
             return RedirectToPage();
         }
         public async Task<IActionResult> OnPostAsignarPoketPokemonAsync(int pokemonId)
@@ -115,17 +113,17 @@ namespace PoyectoPokedexApi.Pages.Pokemon
 
                 if (resultado)
                 {
-                    // Redirige a la misma página para mostrar el mensaje
+                   
                     return RedirectToPage(new { mensaje = "Pokémon asignado al pocket con éxito." });
                 }
                 else
                 {
-                    // Redirige a la misma página para mostrar el mensaje de error
+                    
                     return RedirectToPage(new { mensaje = "Error al asignar el Pokémon al pocket." });
                 }
             }
 
-            // Redirige a la misma página para mostrar el mensaje
+            
             return RedirectToPage();
         }
         public async Task<IActionResult> OnPostAgregarPokemonAsync(int pokemonId)
@@ -142,17 +140,17 @@ namespace PoyectoPokedexApi.Pages.Pokemon
 
                 if (resultado)
                 {
-                    // Redirige a la misma página para mostrar el mensaje
+                    
                     TempData["Mensaje"] = "Pokémon agregado a la Pokedex con éxito.";
                 }
                 else
                 {
-                    // Redirige a la misma página para mostrar el mensaje de error
+                    
                     TempData["Mensaje"] = "Error al agregar el Pokémon a la Pokedex.";
                 }
             }
 
-            // Redirige a la misma página para mostrar el mensaje
+            
             return RedirectToPage();
         }
     }

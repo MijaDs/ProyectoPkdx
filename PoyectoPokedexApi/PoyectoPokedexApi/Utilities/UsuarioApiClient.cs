@@ -221,5 +221,63 @@ namespace PoyectoPokedexApi.Utilities
                 return false;
             }
         }
+
+        public async Task<UsuarioModel> ObtenerUsuario(int idUsuario)
+        {
+            string url = $"https://localhost:7068/Api_Pdx_DbV2/Usuario/Usuario/{idUsuario}";
+            try
+            {
+                var response = await _httpClient.GetAsync(url);
+                if (response.IsSuccessStatusCode)
+                {
+                    string resposeBody = await response.Content.ReadAsStringAsync();
+                    var data = JsonConvert.DeserializeObject<UsuarioModel>(resposeBody);
+                    return data;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public async Task<IEnumerable<RetoModel>> ObtenerRetosUsuario(int idUsuario)
+        {
+            string url = $"https://localhost:7068/Api_Pdx_DbV2/Retos/RestosPorId/{idUsuario}";
+
+            try
+            {
+                var response = await _httpClient.GetAsync(url);
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    var retos = JsonConvert.DeserializeObject<IEnumerable<RetoModel>>(content);
+                    return retos;
+                }
+                else
+                {
+                    Console.WriteLine($"Error: {response.StatusCode} - {response.ReasonPhrase}");
+                    return new List<RetoModel>();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Excepción al llamar a la API: {ex.Message}");
+                return new List<RetoModel>();
+            }
+        }
+
+        public async Task<IEnumerable<UsuarioModel>> ObtenerUsuarios()
+        {
+            string url = $"https://localhost:7068/Api_Pdx_DbV2/Usuario";
+            var response = await _httpClient.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<IEnumerable<UsuarioModel>>(content);
+        }
     }
 }

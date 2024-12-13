@@ -21,6 +21,15 @@ namespace Api_Pdx_Db_V2.Controllers
             return Ok(_conexionContext.reto.ToList());
         }
 
+        [HttpGet("RestosPorId/{Id}")]
+        public ActionResult<IEnumerable<RetoModel>> GetRetosPorId(int Id)
+        {
+            var retos = _conexionContext.reto
+                .Where(r => r.IdUsr1 == Id || r.IdUsr2 == Id)
+                .ToList();
+            return Ok(retos);
+        }
+
         [HttpPut("CrearReto/{idUser1}/{idUser2}")]
         public async Task<ActionResult> CrearReto(int idUser1, int idUser2, [FromBody] RetoModel reto)
         {

@@ -232,6 +232,55 @@
         }
       }
     },
+    "/Api_Pdx_DbV2/Retos/RestosPorId/{Id}": {
+      "get": {
+        "tags": [
+          "Retos"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RetoModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RetoModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RetoModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/Api_Pdx_DbV2/Retos/CrearReto/{idUser1}/{idUser2}": {
       "put": {
         "tags": [

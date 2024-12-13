@@ -1,0 +1,38 @@
+﻿@page  
+@model PoyectoPokedexApi.Pages.Pokemon.RetosModel  
+@{  
+}  
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-4 justify-content-center align-items-center">
+            <h2>Bienvenido, @Model.Usuario.UserName</h2>
+            <p>Nombre: @Model.Usuario.Nombre</p>
+            
+        </div>
+
+        <div class="col-sm-8">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Gerneral</th>
+                        <th>Usuario 1</th>
+                        <th>Usuario 2</th>
+                        <th>Ganador</th>
+                        <th>Mensaje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var reto in Model.ListaDeRetos)
+                    {
+                        <tr>
+                            <td>@reto.Id</td>
+                            <td>@reto.IdUsr2</td>
+                            <td>@reto.IdGanador</td>
+                            <td>@reto.Mensaje</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

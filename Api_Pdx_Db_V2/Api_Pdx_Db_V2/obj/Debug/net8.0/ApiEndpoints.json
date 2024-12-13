@@ -164,6 +164,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.RetosController",
+    "Method": "GetRetosPorId",
+    "RelativePath": "Api_Pdx_DbV2/Retos/RestosPorId/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.RetoModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.RolController",
     "Method": "GetRoles",
     "RelativePath": "Api_Pdx_DbV2/Rol",

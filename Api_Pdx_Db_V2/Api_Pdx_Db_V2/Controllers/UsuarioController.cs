@@ -30,7 +30,7 @@ namespace Api_Pdx_Db_V2.Controllers
             //Agrega el pass encriptado
             nuevoUsuario.Pass = BCrypt.Net.BCrypt.HashPassword(nuevoUsuario.Pass);
             _conexionContext.usuario.Add(nuevoUsuario);
-            _conexionContext.SaveChanges();
+            
             
 
             //Asigna rol sario 
