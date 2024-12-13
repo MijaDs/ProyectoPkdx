@@ -15,7 +15,8 @@ namespace Api_Pdx_Db_V2.Data
         public DbSet<UsuarioPktModel> usuario_pocket {  get; set; }
         public DbSet<RetoModel> reto { get; set; }
         public DbSet<MensajesModel> mensajes { get; set; }
-        public DbSet<EnfermeriaModel> enfermeria {  get; set; }  
+        public DbSet<EnfermeriaModel> enfermeria {  get; set; }
+        public DbSet<UsuarioRolViewModel> VistaUsuariosRoles { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<RolModel>().ToTable("rol");
@@ -35,6 +36,10 @@ namespace Api_Pdx_Db_V2.Data
             modelBuilder.Entity<MensajesModel>().ToTable("mensajesPred");
          
             modelBuilder.Entity<EnfermeriaModel>().ToTable("enfermeria");
+
+            modelBuilder.Entity<UsuarioRolViewModel>()
+                .ToTable("vista_usuarios_roles") // Sin espacio adicional
+                .HasNoKey();
         }
     }
 }

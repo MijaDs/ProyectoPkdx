@@ -541,6 +541,44 @@
         }
       }
     },
+    "/Api_Pdx_DbV2/Usuario/VistaUsuariosRoles": {
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioRolViewModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioRolViewModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioRolViewModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/Api_Pdx_DbV2/UsuarioPkm": {
       "get": {
         "tags": [
@@ -1270,6 +1308,28 @@
             "format": "int32"
           },
           "idUsuario": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuarioRolViewModel": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "idRol": {
             "type": "integer",
             "format": "int32"
           }

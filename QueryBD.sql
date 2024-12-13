@@ -62,7 +62,26 @@ CREATE TABLE usuario_pocket (
     CONSTRAINT fk_usr_pkt_pkm3 FOREIGN KEY (pkm_Id3) REFERENCES usuario_pkm(Id) ON DELETE CASCADE
 );
 
-gfh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TRIGGER after_usuario_insert AFTER INSERT ON usuario FOR EACH ROW BEGIN INSERT INTO usuario_rol (IdRol, IdUsuario) VALUES (2, NEW.Id); END;
 
 
 

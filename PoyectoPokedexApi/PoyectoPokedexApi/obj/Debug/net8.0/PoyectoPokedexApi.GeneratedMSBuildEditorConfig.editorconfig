@@ -48,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9rZW1vblxVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/laragon/www/ProyectoPkdx/PoyectoPokedexApi/PoyectoPokedexApi/Pages/Pokemon/Usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9rZW1vblxVc3Vhcmlvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/laragon/www/ProyectoPkdx/PoyectoPokedexApi/PoyectoPokedexApi/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

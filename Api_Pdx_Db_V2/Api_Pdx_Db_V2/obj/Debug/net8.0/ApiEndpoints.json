@@ -314,6 +314,26 @@
     ]
   },
   {
+    "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioController",
+    "Method": "GetVistaUsuariosRoles",
+    "RelativePath": "Api_Pdx_DbV2/Usuario/VistaUsuariosRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Api_Pdx_Db_V2.Models.UsuarioRolViewModel, Api_Pdx_Db_V2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Api_Pdx_Db_V2.Controllers.UsuarioPkmController",
     "Method": "GetUsuarios_pkm",
     "RelativePath": "Api_Pdx_DbV2/UsuarioPkm",

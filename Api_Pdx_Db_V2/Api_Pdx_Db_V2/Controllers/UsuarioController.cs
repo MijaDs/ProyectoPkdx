@@ -1,6 +1,7 @@
 ﻿using Api_Pdx_Db_V2.Data;
 using Api_Pdx_Db_V2.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Org.BouncyCastle.Crypto.Generators;
 
 namespace Api_Pdx_Db_V2.Controllers
@@ -117,6 +118,20 @@ namespace Api_Pdx_Db_V2.Controllers
             //retorno usuario 
 
             return Ok(new { mensaje = "Login exitoso", usuario = datosUsuario });
+        }
+
+        [HttpGet("VistaUsuariosRoles")]
+        public ActionResult<IEnumerable<UsuarioRolViewModel>> GetVistaUsuariosRoles()
+        {
+            try
+            {
+                var data = _conexionContext.VistaUsuariosRoles.ToList();
+                return Ok(data);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error al consultar la vista: {ex.Message}");
+            }
         }
 
     }
