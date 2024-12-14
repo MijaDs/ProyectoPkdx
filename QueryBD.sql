@@ -82,6 +82,7 @@ CREATE TABLE usuario_pocket (
 
 
 CREATE TRIGGER after_usuario_insert AFTER INSERT ON usuario FOR EACH ROW BEGIN INSERT INTO usuario_rol (IdRol, IdUsuario) VALUES (2, NEW.Id); END;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `vista_usuarios_roles`  AS SELECT `u`.`Nombre` AS `Nombre`, `u`.`UserName` AS `UserName`, `r`.`Descripcion` AS `Descripcion`, `ur`.`IdRol` AS `IdRol` FROM ((`usuario` `u` join `usuario_rol` `ur` on((`u`.`Id` = `ur`.`IdUsuario`))) join `rol` `r` on((`ur`.`IdRol` = `r`.`Id`))) ;
 
 
 
