@@ -1,5 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: "Press Start 2P", serif;
+}
+
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -29,7 +37,8 @@ body {
 
 /* Estilo para los enlaces Login y Registrarse */
 .navbar-nav .nav-item .nav-link {
-    font-family: 'Pokemon Classic', sans-serif;
+/*    font-family: 'Pokemon Classic', sans-serif;*/
+    font-size: 10px;
     font-weight: bold;
     color: var(--negro-texto); /* Color de texto por defecto */
     background-color: transparent; /* Fondo transparente por defecto */
